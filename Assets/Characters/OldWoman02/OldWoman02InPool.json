@@ -1,0 +1,3182 @@
+﻿{
+    "OldWoman02InPool": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/TheFall2023_V2/Assets/Characters/OldWoman02",
+        "Object": {
+            "OldWoman02InPool": {
+                "Generation": "RL_CC3_Plus",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.4572978019714359,
+                                    1.6584089994430543,
+                                    99.58560943603516
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121457099914551,
+                                    0.07485569268465042,
+                                    -0.10690533369779587,
+                                    0.568671464920044
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.457370758056641,
+                                    1.6584070920944214,
+                                    99.5860366821289
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121415376663208,
+                                    -0.07487764954566956,
+                                    0.10693640261888504,
+                                    0.5686686635017395
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    8.860234260559082,
+                                    1.666216492652893,
+                                    68.9197998046875
+                                ],
+                                "WorldRotationQ": [
+                                    -0.016711005941033365,
+                                    0.708118736743927,
+                                    -0.7056093811988831,
+                                    -0.02010071650147438
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.000000238418579,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.129142761230469,
+                                "Capsule Length": 40.680519104003909
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.60638952255249,
+                                    4.619897365570068,
+                                    26.173967361450197
+                                ],
+                                "WorldRotationQ": [
+                                    -0.0068395487032830719,
+                                    0.7164489030838013,
+                                    -0.6975728273391724,
+                                    -0.00681206863373518
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.164678573608398,
+                                "Capsule Length": 35.07794189453125
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -8.857234001159668,
+                                    1.6535115242004395,
+                                    68.91619110107422
+                                ],
+                                "WorldRotationQ": [
+                                    0.01965169981122017,
+                                    0.7080339789390564,
+                                    -0.7056935429573059,
+                                    0.017272870987653734
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 8.093393325805664,
+                                "Capsule Length": 40.753692626953128
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -7.603031158447266,
+                                    4.589107513427734,
+                                    26.173614501953126
+                                ],
+                                "WorldRotationQ": [
+                                    0.006844062823802233,
+                                    0.7165572047233582,
+                                    -0.6974614858627319,
+                                    0.006813088897615671
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999999403953552,
+                                    1.0
+                                ],
+                                "Radius": 6.154087066650391,
+                                "Capsule Length": 35.0991096496582
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.0002221752656623721,
+                                    1.1105831861495972,
+                                    121.66796875
+                                ],
+                                "WorldRotationQ": [
+                                    0.44573020935058596,
+                                    0.5489304065704346,
+                                    0.44573020935058596,
+                                    0.5489304065704346
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 12.762815475463868,
+                                "Capsule Length": 6.1754150390625
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.00003791360722971149,
+                                    4.048408031463623,
+                                    139.60935974121095
+                                ],
+                                "WorldRotationQ": [
+                                    0.8396189212799072,
+                                    0.000003466269163254765,
+                                    -0.000002703071231735521,
+                                    0.543175995349884
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 5.2611188888549809,
+                                "Capsule Length": 5.305224418640137
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.00221144687384367,
+                                    6.278744220733643,
+                                    127.07744598388672
+                                ],
+                                "WorldRotationQ": [
+                                    0.5937021374702454,
+                                    0.38408586382865908,
+                                    0.5936982035636902,
+                                    0.3840809762477875
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 10.77539348602295,
+                                "Capsule Length": 7.844635009765625
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.999169826507568,
+                                    2.0650107860565187,
+                                    122.4098129272461
+                                ],
+                                "WorldRotationQ": [
+                                    0.32287055253982546,
+                                    0.6290936470031738,
+                                    0.32286959886550906,
+                                    0.629087507724762
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 7.25990104675293,
+                                "Capsule Length": 13.24941635131836
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.000820159912109,
+                                    2.065477132797241,
+                                    122.40967559814453
+                                ],
+                                "WorldRotationQ": [
+                                    0.32287055253982546,
+                                    0.6290936470031738,
+                                    0.32286959886550906,
+                                    0.629087507724762
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 7.25990104675293,
+                                "Capsule Length": 13.24941635131836
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.00011407973215682432,
+                                    -0.8591634631156921,
+                                    150.4516143798828
+                                ],
+                                "WorldRotationQ": [
+                                    0.7082929611206055,
+                                    -4.5342986254581777e-8,
+                                    4.534276598633369e-8,
+                                    0.7059186100959778
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000003576278687,
+                                    1.0000003576278687
+                                ],
+                                "Radius": 7.260692596435547,
+                                "Capsule Length": 7.808658599853516
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    23.447256088256837,
+                                    6.913561820983887,
+                                    132.7118682861328
+                                ],
+                                "WorldRotationQ": [
+                                    0.5014050006866455,
+                                    0.5005785226821899,
+                                    -0.4940539002418518,
+                                    0.5039096474647522
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 5.045426368713379,
+                                "Capsule Length": 22.943693161010743
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    47.8547248840332,
+                                    6.923748016357422,
+                                    133.9103240966797
+                                ],
+                                "WorldRotationQ": [
+                                    0.49433469772338869,
+                                    0.5075531005859375,
+                                    -0.49423637986183169,
+                                    0.5037394762039185
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999997615814209,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 3.494968891143799,
+                                "Capsule Length": 22.91339111328125
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    64.3155288696289,
+                                    5.476780414581299,
+                                    133.75172424316407
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4908413887023926,
+                                    -0.5081329345703125,
+                                    0.508393406867981,
+                                    -0.4923533499240875
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999997019767761,
+                                    1.0
+                                ],
+                                "Extent": [
+                                    4.522909164428711,
+                                    9.572022438049317,
+                                    8.070645332336426
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -23.454193115234376,
+                                    6.913525581359863,
+                                    132.7123260498047
+                                ],
+                                "WorldRotationQ": [
+                                    0.5014057159423828,
+                                    -0.5005781054496765,
+                                    0.49405258893966677,
+                                    0.5039106011390686
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999996423721314,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 5.045187950134277,
+                                "Capsule Length": 22.95778465270996
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -47.855777740478519,
+                                    6.922204494476318,
+                                    134.2124786376953
+                                ],
+                                "WorldRotationQ": [
+                                    0.4943349361419678,
+                                    -0.5075529217720032,
+                                    0.4942374527454376,
+                                    0.5037383437156677
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999995827674866,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 3.4925577640533449,
+                                "Capsule Length": 22.915075302124025
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -64.32960510253906,
+                                    5.743089199066162,
+                                    133.72889709472657
+                                ],
+                                "WorldRotationQ": [
+                                    0.49084174633026125,
+                                    -0.5081326365470886,
+                                    0.5083944797515869,
+                                    0.49235212802886965
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999995231628418,
+                                    1.0000001192092896
+                                ],
+                                "Extent": [
+                                    5.314800262451172,
+                                    9.57332992553711,
+                                    8.195561408996582
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Base_Tongue": {
+                        "Materials": {
+                            "Std_Tongue": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tongue_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tongue_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTongue",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_GradAO.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 4.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "_Brightness": 1.0,
+                                        "_Desaturation": 0.05000000074505806,
+                                        "Front Roughness": 1.0,
+                                        "Front Specular": 0.2590000033378601,
+                                        "Back Roughness": 1.0,
+                                        "Back Specular": 0.0,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "_Scatter": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Body": {
+                        "Materials": {
+                            "Std_Skin_Head": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Head_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Head_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLHead",
+                                    "Image": {
+                                        "Specular Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SpecMask.jpg"
+                                        },
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png"
+                                        },
+                                        "Mouth Cavity Mask and AO": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MNAOMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Cheek Fore UpperLip Chin Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga"
+                                        },
+                                        "Ear Neck Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga"
+                                        },
+                                        "Nose Mouth UpperInnerLid Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga"
+                                        },
+                                        "BaseColor Blend2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg"
+                                        },
+                                        "NormalMap Blend": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BaseColor Blend2 Strength": 0.0,
+                                        "NormalMap Blend Strength": 0.5,
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.16599999368190766,
+                                        "Nose Roughness Scale": -0.07199999690055847,
+                                        "Mouth Roughness Scale": -0.05000000074505806,
+                                        "UpperLid Roughness Scale": -0.30000001192092898,
+                                        "InnerLid Roughness Scale": -0.5,
+                                        "Ear Roughness Scale": -0.1770000010728836,
+                                        "Neck Roughness Scale": -0.1770000010728836,
+                                        "Cheek Roughness Scale": -0.15800000727176667,
+                                        "Forehead Roughness Scale": -0.14900000393390656,
+                                        "UpperLip Roughness Scale": -0.07199999690055847,
+                                        "Chin Roughness Scale": -0.2160000056028366,
+                                        "Unmasked Roughness Scale": -0.10999999940395355,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "Inner Mouth Ao": 2.5,
+                                        "Nostril Ao": 3.5,
+                                        "Lips Gap Ao": 0.0,
+                                        "Nose Scatter Scale": 1.0,
+                                        "Mouth Scatter Scale": 1.0,
+                                        "UpperLid Scatter Scale": 1.0,
+                                        "InnerLid Scatter Scale": 1.0,
+                                        "Ear Scatter Scale": 1.0,
+                                        "Neck Scatter Scale": 1.0,
+                                        "Cheek Scatter Scale": 1.0,
+                                        "Forehead Scatter Scale": 1.0,
+                                        "UpperLip Scatter Scale": 1.0,
+                                        "Chin Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "padding ActiveBlend": 0.0,
+                                        "_Blend Map Color": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Range": 0.15000000596046449,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.0,
+                                        "_Yellow": 22.0,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                },
+                                "Wrinkle": {
+                                    "Textures": {
+                                        "Diffuse_1": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Diffuse1.png"
+                                        },
+                                        "Diffuse_2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Diffuse2.png"
+                                        },
+                                        "Diffuse_3": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Diffuse3.png"
+                                        },
+                                        "Normal_1": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Normal1.png"
+                                        },
+                                        "Normal_2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Normal2.png"
+                                        },
+                                        "Normal_3": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Normal3.png"
+                                        },
+                                        "Roughness_1": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Roughness1.png"
+                                        },
+                                        "Roughness_2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Roughness2.png"
+                                        },
+                                        "Roughness_3": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Roughness3.png"
+                                        },
+                                        "Flow_1": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Flow1.jpg"
+                                        },
+                                        "Flow_2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Flow2.jpg"
+                                        },
+                                        "Flow_3": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_Wrinkle_Flow3.jpg"
+                                        }
+                                    },
+                                    "WrinkleRules": [
+                                        "head_wm1_normal_head_wm1_blink_L",
+                                        "head_wm1_normal_head_wm1_blink_R",
+                                        "head_wm1_normal_head_wm1_browRaiseInner_L",
+                                        "head_wm1_normal_head_wm1_browRaiseInner_R",
+                                        "head_wm1_normal_head_wm1_browRaiseOuter_L",
+                                        "head_wm1_normal_head_wm1_browRaiseOuter_R",
+                                        "head_wm1_normal_head_wm1_chinRaise_L",
+                                        "head_wm1_normal_head_wm1_chinRaise_R",
+                                        "head_wm1_normal_head_wm1_jawOpen",
+                                        "head_wm1_normal_head_wm1_purse_DL",
+                                        "head_wm1_normal_head_wm1_purse_DR",
+                                        "head_wm1_normal_head_wm1_purse_UL",
+                                        "head_wm1_normal_head_wm1_purse_UR",
+                                        "head_wm1_normal_head_wm1_squintInner_L",
+                                        "head_wm1_normal_head_wm1_squintInner_R",
+                                        "head_wm2_normal_head_wm2_browsDown_L",
+                                        "head_wm2_normal_head_wm2_browsDown_R",
+                                        "head_wm2_normal_head_wm2_browsLateral_L",
+                                        "head_wm2_normal_head_wm2_browsLateral_R",
+                                        "head_wm2_normal_head_wm2_mouthStretch_L",
+                                        "head_wm2_normal_head_wm2_mouthStretch_R",
+                                        "head_wm2_normal_head_wm2_neckStretch_L",
+                                        "head_wm2_normal_head_wm2_neckStretch_R",
+                                        "head_wm2_normal_head_wm2_noseWrinkler_L",
+                                        "head_wm2_normal_head_wm2_noseWrinkler_R",
+                                        "head_wm3_normal_head_wm3_cheekRaiseInner_L",
+                                        "head_wm3_normal_head_wm3_cheekRaiseInner_R",
+                                        "head_wm3_normal_head_wm3_cheekRaiseOuter_L",
+                                        "head_wm3_normal_head_wm3_cheekRaiseOuter_R",
+                                        "head_wm3_normal_head_wm3_cheekRaiseUpper_L",
+                                        "head_wm3_normal_head_wm3_cheekRaiseUpper_R",
+                                        "head_wm3_normal_head_wm3_smile_L",
+                                        "head_wm3_normal_head_wm3_smile_R",
+                                        "head_wm3_normal_head_wm13_lips_DL",
+                                        "head_wm3_normal_head_wm13_lips_DR",
+                                        "head_wm3_normal_head_wm13_lips_UL",
+                                        "head_wm3_normal_head_wm13_lips_UR",
+                                        "head_wm1_normal_head_wm13_lips_DL",
+                                        "head_wm1_normal_head_wm13_lips_DR",
+                                        "head_wm1_normal_head_wm13_lips_UL",
+                                        "head_wm1_normal_head_wm13_lips_UR",
+                                        "head_wm2_normal_head_wm2_noseCrease_L",
+                                        "head_wm2_normal_head_wm2_noseCrease_R",
+                                        "head_wm3_normal_head_wm3_browRaiseCorrection_L",
+                                        "head_wm3_normal_head_wm3_browRaiseCorrection_R",
+                                        "head_wm3_normal_head_wm3_smileNoseCrease_L",
+                                        "head_wm3_normal_head_wm3_smileNoseCrease_R"
+                                    ],
+                                    "WrinkleEaseStrength": [
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0,
+                                        50.0
+                                    ],
+                                    "WrinkleRuleWeights": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "WrinkleOverallWeight": 1.0
+                                }
+                            },
+                            "Std_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Body_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Range": 0.15000000596046449,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.0,
+                                        "_Yellow": 22.0,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Arm": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Arm_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Arm_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Range": 0.15000000596046449,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.0,
+                                        "_Yellow": 22.0,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Leg": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Leg_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Skin_Leg_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Range": 0.15000000596046449,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.0,
+                                        "_Yellow": 22.0,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Nails": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Nails_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Nails_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            247.35000610351563,
+                                            201.45001220703126,
+                                            155.5500030517578
+                                        ],
+                                        "_Range": 0.15000000596046449,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.0,
+                                        "_Yellow": 22.0,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eyelash_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Eyelash/Std_Eyelash_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/OldWoman02InPool/CC_Base_Body/Std_Eyelash/Std_Eyelash_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_R_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_L_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Upper_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Upper_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Lower_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Lower_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/OldWoman02InPool/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_EyeOcclusion": {
+                        "Materials": {
+                            "Std_Eye_Occlusion_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            },
+                            "Std_Eye_Occlusion_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_TearLine": {
+                        "Materials": {
+                            "Std_Tearline_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_MetallicAlpha.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            },
+                            "Std_Tearline_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "College_Swimsuit_B": {
+                        "Materials": {
+                            "College_Swimsuit_B": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/College_Swimsuit_B_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/College_Swimsuit_B_Diffuse.png",
+                                        "Strength": 14.999999046325684,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/College_Swimsuit_B_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/College_Swimsuit_B/College_Swimsuit_B/College_Swimsuit_B/College_Swimsuit_B_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/College_Swimsuit_B/College_Swimsuit_B/College_Swimsuit_B/College_Swimsuit_B_MetallicAlpha.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "College_Life___Swim_Cap_C": {
+                        "Materials": {
+                            "College_Life_Swim_Cap_C": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    167.19993591308595,
+                                    167.19993591308595,
+                                    167.19993591308595
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    29.834999084472658,
+                                    29.834999084472658,
+                                    29.834999084472658
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/College_Life_Swim_Cap_C_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./OldWoman02InPool.fbm/College_Life_Swim_Cap_C_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/OldWoman02InPool/College_Life___Swim_Cap_C/College_Life___Swim_Cap_C/College_Life_Swim_Cap_C/College_Life_Swim_Cap_C_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/OldWoman02InPool/College_Life___Swim_Cap_C/College_Life___Swim_Cap_C/College_Life_Swim_Cap_C/College_Life_Swim_Cap_C_MetallicAlpha.png"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

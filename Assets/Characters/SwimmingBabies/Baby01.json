@@ -1,0 +1,1914 @@
+﻿{
+    "Baby01": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/TheFall2023_V2/Assets/Characters/SwimmingBabies",
+        "Object": {
+            "Baby01": {
+                "Generation": "ActorBuild",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -3.7225375175476076,
+                                    -0.26079151034355166,
+                                    34.17211151123047
+                                ],
+                                "WorldRotationQ": [
+                                    0.8285114169120789,
+                                    0.03518605977296829,
+                                    -0.0824795588850975,
+                                    0.5527456998825073
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.000000238418579
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 3.047975540161133
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    3.398409605026245,
+                                    -0.2614094913005829,
+                                    34.11537170410156
+                                ],
+                                "WorldRotationQ": [
+                                    0.8301159143447876,
+                                    -0.0624624565243721,
+                                    0.06435063481330872,
+                                    0.550331711769104
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 3.0490150451660158
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    3.8951222896575929,
+                                    1.706879734992981,
+                                    4.274667263031006
+                                ],
+                                "WorldRotationQ": [
+                                    -0.017976196482777597,
+                                    0.7261438965797424,
+                                    -0.6870666146278381,
+                                    -0.018204892054200174
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    0.9999997019767761,
+                                    1.0
+                                ],
+                                "Radius": 8.344451904296875,
+                                "Capsule Length": 39.67937469482422
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    4.892841815948486,
+                                    2.3512656688690187,
+                                    -6.493167400360107
+                                ],
+                                "WorldRotationQ": [
+                                    0.006177926901727915,
+                                    0.7264243960380554,
+                                    -0.6872049570083618,
+                                    0.004339813720434904
+                                ],
+                                "WorldScale": [
+                                    0.9999991059303284,
+                                    0.9999988675117493,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.74690055847168,
+                                "Capsule Length": 36.132720947265628
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -3.905062437057495,
+                                    1.730011224746704,
+                                    4.263680934906006
+                                ],
+                                "WorldRotationQ": [
+                                    0.017840413376688958,
+                                    0.7264782190322876,
+                                    -0.6867196559906006,
+                                    0.018086684867739679
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    0.9999997615814209,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 8.306641578674317,
+                                "Capsule Length": 39.76897430419922
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.3306884765625,
+                                    2.3301925659179689,
+                                    -6.66249418258667
+                                ],
+                                "WorldRotationQ": [
+                                    -0.012812855653464795,
+                                    0.7259748578071594,
+                                    -0.6875196099281311,
+                                    -0.010635964572429657
+                                ],
+                                "WorldScale": [
+                                    0.9999996423721314,
+                                    0.9999995231628418,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.735609531402588,
+                                "Capsule Length": 36.17311477661133
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.0020382804796099664,
+                                    1.0537192821502686,
+                                    47.03032684326172
+                                ],
+                                "WorldRotationQ": [
+                                    0.47265538573265078,
+                                    0.5258996486663818,
+                                    0.47268146276474,
+                                    0.5259265303611755
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999998807907105,
+                                    1.0
+                                ],
+                                "Radius": 12.7628173828125,
+                                "Capsule Length": 2.717052459716797
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.01105912309139967,
+                                    2.1599223613739015,
+                                    57.428184509277347
+                                ],
+                                "WorldRotationQ": [
+                                    0.7354468703269959,
+                                    -0.002574024023488164,
+                                    0.0020805958192795517,
+                                    0.6775743365287781
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0,
+                                    0.9999997615814209
+                                ],
+                                "Radius": 5.261119842529297,
+                                "Capsule Length": 5.305224418640137
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0483567975461483,
+                                    2.1451504230499269,
+                                    50.931427001953128
+                                ],
+                                "WorldRotationQ": [
+                                    0.518568217754364,
+                                    0.477297306060791,
+                                    0.521510660648346,
+                                    0.48093754053115847
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 12.903196334838868,
+                                "Capsule Length": 3.2332191467285158
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -3.944108009338379,
+                                    0.5631868243217468,
+                                    49.223182678222659
+                                ],
+                                "WorldRotationQ": [
+                                    0.30703461170196535,
+                                    0.6343938112258911,
+                                    0.30843451619148257,
+                                    0.6388602256774902
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999998807907105,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.867868423461914,
+                                "Capsule Length": 15.433208465576172
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    4.0278239250183109,
+                                    0.5558955073356628,
+                                    49.27544403076172
+                                ],
+                                "WorldRotationQ": [
+                                    0.3070330023765564,
+                                    0.6343945264816284,
+                                    0.30843281745910647,
+                                    0.6388610601425171
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.867868423461914,
+                                "Capsule Length": 15.435400009155274
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.011497365310788155,
+                                    0.4511740803718567,
+                                    63.68798828125
+                                ],
+                                "WorldRotationQ": [
+                                    0.707122802734375,
+                                    2.497796174338873e-7,
+                                    -2.497796174338873e-7,
+                                    0.7070907354354858
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0000001192092896,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 6.8050312995910648,
+                                "Capsule Length": 3.1670408248901369
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    23.835588455200197,
+                                    4.145031452178955,
+                                    52.327606201171878
+                                ],
+                                "WorldRotationQ": [
+                                    0.4934157133102417,
+                                    0.5281973481178284,
+                                    -0.4675317704677582,
+                                    0.5088837742805481
+                                ],
+                                "WorldScale": [
+                                    0.9999994039535523,
+                                    0.999999463558197,
+                                    0.9999997615814209
+                                ],
+                                "Radius": 5.045429229736328,
+                                "Capsule Length": 27.136096954345704
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    32.24465560913086,
+                                    3.0216193199157717,
+                                    52.417884826660159
+                                ],
+                                "WorldRotationQ": [
+                                    0.5157540440559387,
+                                    0.5052322149276733,
+                                    -0.49394938349723818,
+                                    0.4845122694969177
+                                ],
+                                "WorldScale": [
+                                    0.999999463558197,
+                                    0.999999463558197,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 4.370330810546875,
+                                "Capsule Length": 21.765460968017579
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    31.13589859008789,
+                                    2.4101357460021974,
+                                    52.56425476074219
+                                ],
+                                "WorldRotationQ": [
+                                    0.5239129662513733,
+                                    0.4988005459308624,
+                                    -0.4743753671646118,
+                                    0.501678466796875
+                                ],
+                                "WorldScale": [
+                                    0.9999995231628418,
+                                    0.9999997019767761,
+                                    0.9999999403953552
+                                ],
+                                "Extent": [
+                                    4.522911548614502,
+                                    9.57202434539795,
+                                    8.070646286010743
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -23.830982208251954,
+                                    4.133338451385498,
+                                    52.32135009765625
+                                ],
+                                "WorldRotationQ": [
+                                    0.4934524893760681,
+                                    -0.5279583930969238,
+                                    0.46787914633750918,
+                                    0.5087766051292419
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 5.0451860427856449,
+                                "Capsule Length": 27.1297664642334
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -32.216854095458987,
+                                    3.025163412094116,
+                                    52.55182647705078
+                                ],
+                                "WorldRotationQ": [
+                                    0.5152768492698669,
+                                    -0.5055143237113953,
+                                    0.49376916885375979,
+                                    0.484909325838089
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    1.0
+                                ],
+                                "Radius": 4.368197441101074,
+                                "Capsule Length": 21.76650047302246
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -31.153011322021486,
+                                    2.7039365768432619,
+                                    52.53457260131836
+                                ],
+                                "WorldRotationQ": [
+                                    0.5214869379997253,
+                                    -0.500831663608551,
+                                    0.4742785096168518,
+                                    0.502273678779602
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Extent": [
+                                    5.314800262451172,
+                                    9.573325157165528,
+                                    8.195563316345215
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Game_Body": {
+                        "Materials": {
+                            "Ga_Skin_Arm": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Arm_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Arm_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Arm/Ga_Skin_Arm_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Arm/Ga_Skin_Arm_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Arm/Ga_Skin_Arm_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSSS",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "AO Map Affect All Lights": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "_Specular": 0.4000000059604645,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Ga_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Body_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSSS",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "AO Map Affect All Lights": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "_Specular": 0.4000000059604645,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Ga_Skin_Head": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Head_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Head_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Head/Ga_Skin_Head_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Head/Ga_Skin_Head_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Head/Ga_Skin_Head_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSSS",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "AO Map Affect All Lights": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "_Specular": 0.4000000059604645,
+                                        "Micro Roughness Scale": 0.16599999368190766,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": -0.10999999940395355,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Ga_Skin_Leg": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Leg_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Skin_Leg_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Leg/Ga_Skin_Leg_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Leg/Ga_Skin_Leg_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Leg/Ga_Skin_Leg_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSSS",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "AO Map Affect All Lights": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "_Specular": 0.4000000059604645,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Ga_Nails": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Nails_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Nails_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Nails/Ga_Nails_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Nails/Ga_Nails_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Nails/Ga_Nails_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSSS",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Skin_Body/Ga_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "AO Map Affect All Lights": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "_Specular": 0.4000000059604645,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.10000000149011612,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Ga_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Ga_Eyelash_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Eyelash/Ga_Eyelash_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Eyelash/Ga_Eyelash_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Body/Ga_Eyelash/Ga_Eyelash_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Game_Tongue": {
+                        "Materials": {
+                            "Std_Tongue1": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Tongue1_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Std_Tongue1_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Std_Tongue1_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Tongue/Std_Tongue1/Std_Tongue1_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Tongue/Std_Tongue1/Std_Tongue1_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Game_Tongue/Std_Tongue1/Std_Tongue1_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Eye_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Std_Eye_R_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Eye_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Eye_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Std_Eye_L_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/Baby01/Baby01/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Upper_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Std_Upper_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Std_Upper_Teeth_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            },
+                            "Std_Lower_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./Baby01.fbm/Std_Lower_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./Baby01.fbm/Std_Lower_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./Baby01.fbm/Std_Lower_Teeth_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

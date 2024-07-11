@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7044290083832200213
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa486462e6be1764e89c788ba30e61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DiffusionProfileReferences:
+  - {fileID: 11400000, guid: 023ea5718f83e6d42aaea6dd3a85280e, type: 2}
+  m_MaterialReferences: []
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Std_Skin_Head_Pbr
+  m_Shader: {fileID: -6465566751694194690, guid: e4b1192022fa52046868c000971f662c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BOOLEAN_IS_HEAD_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _MATERIAL_FEATURE_SUBSURFACE_SCATTERING
+  - _MATERIAL_FEATURE_TRANSMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CFULCMask:
+        m_Texture: {fileID: 2800000, guid: bfaf8522b6f57f14fae7abaf89864ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorBlendMap:
+        m_Texture: {fileID: 2800000, guid: 69d3dcf5d6c272546a6832c294c10142, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: d83405a150e2c484ba77e6b94dd7eb15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EarNeckMask:
+        m_Texture: {fileID: 2800000, guid: e750514449099f1488a8705b25610c83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MNAOMap:
+        m_Texture: {fileID: 2800000, guid: 8c8174af5a78bbb4ebd30c06176ab248, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: ddb2f39e9664e184c8f282b59116f563, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroNormalMap:
+        m_Texture: {fileID: 2800000, guid: c6d238ac8b290924bbbe7757243edf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalBlendMap:
+        m_Texture: {fileID: 2800000, guid: 1c585ee39f559994eb78528f48f3f94d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0bebf6d1f7a39874892ec8e3a7180c27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBAMask:
+        m_Texture: {fileID: 2800000, guid: 32a63975635cebf4481704cfd8da5a6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSMap:
+        m_Texture: {fileID: 2800000, guid: 32b43355575fd4b42a09347802d5d253, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 2800000, guid: b72cf20baa443bb469c087268d73eaad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BOOLEAN_IS_HEAD: 1
+    - _AOStrength: 1
+    - _AScatterScale: 1
+    - _ASmoothnessMod: 0.574
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BScatterScale: 1
+    - _BSmoothnessMod: 0.3
+    - _BlendMode: 0
+    - _CheekScatterScale: 1
+    - _CheekSmoothnessMod: 0
+    - _ChinScatterScale: 1
+    - _ChinSmoothnessMod: 0
+    - _ColorBlendStrength: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DiffusionProfileHash: 2.5707254
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EarScatterScale: 1
+    - _EarSmoothnessMod: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
+    - _ForeheadScatterScale: 1
+    - _ForeheadSmoothnessMod: 0
+    - _GScatterScale: 1
+    - _GSmoothnessMod: -0.034
+    - _LipsCavityAO: 2.5
+    - _MaterialID: 0
+    - _MaterialTypeMask: 1
+    - _MicroNormalStrength: 0.5
+    - _MicroNormalTiling: 20
+    - _MicroSmoothnessMod: -0.05
+    - _MouthCavityAO: 2.5
+    - _NeckScatterScale: 1
+    - _NeckSmoothnessMod: 0
+    - _NormalBlendStrength: 0
+    - _NormalStrength: 1
+    - _NostrilCavityAO: 2.5
+    - _OpaqueCullMode: 2
+    - _RScatterScale: 1
+    - _RSmoothnessMod: -0.119
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 1
+    - _SmoothnessMax: 0.8661538
+    - _SmoothnessMin: 0
+    - _SmoothnessPower: 1.25
+    - _SrcBlend: 1
+    - _StencilRef: 4
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 14
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SubsurfaceScale: 0.85
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _ThicknessScale: 0.9
+    - _ThicknessScaleMin: 0.25
+    - _TransmissionEnable: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UnmaskedScatterScale: 1
+    - _UnmaskedSmoothnessMod: 0
+    - _UpperLipScatterScale: 1
+    - _UpperLipSmoothnessMod: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _DiffuseColor: {r: 0.972549, g: 0.8039216, b: 0.8039216, a: 1}
+    - _DiffusionProfileAsset: {r: 1.6364797e+30, g: -7.9203973e+12, b: -1.5013229e+18, a: 2.0771745e-30}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8310219893742338757
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 

@@ -1,0 +1,3058 @@
+﻿{
+    "ManInConcourse": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/TheFall2023_V2/Assets/Characters",
+        "Object": {
+            "ManInConcourse": {
+                "Generation": "RL_CC3_Plus",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -7.027068614959717,
+                                    4.164699554443359,
+                                    99.60086822509766
+                                ],
+                                "WorldRotationQ": [
+                                    0.8150318264961243,
+                                    0.03013727441430092,
+                                    -0.07551361620426178,
+                                    0.5736834406852722
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    6.414038181304932,
+                                    4.165052890777588,
+                                    99.50331115722656
+                                ],
+                                "WorldRotationQ": [
+                                    0.8167356252670288,
+                                    -0.060775116086006168,
+                                    0.05405571311712265,
+                                    0.5712506771087647
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692730903625489,
+                                "Capsule Length": 24.919790267944337
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    8.470888137817383,
+                                    1.72830331325531,
+                                    70.0111083984375
+                                ],
+                                "WorldRotationQ": [
+                                    -0.007299746852368116,
+                                    0.734379231929779,
+                                    -0.6786540746688843,
+                                    -0.007911969907581807
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 7.471281051635742,
+                                "Capsule Length": 42.28236770629883
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    9.595181465148926,
+                                    5.010751724243164,
+                                    28.845003128051759
+                                ],
+                                "WorldRotationQ": [
+                                    -0.0068260300904512409,
+                                    0.7101082801818848,
+                                    -0.7040268778800964,
+                                    -0.0067607685923576359
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999997019767761,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.164678573608398,
+                                "Capsule Length": 35.07794189453125
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -8.473661422729493,
+                                    1.7196848392486573,
+                                    70.01055145263672
+                                ],
+                                "WorldRotationQ": [
+                                    0.007298543583601713,
+                                    0.7342897057533264,
+                                    -0.6787508726119995,
+                                    0.007909869775176049
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 7.438780784606934,
+                                "Capsule Length": 42.342041015625
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -9.591588973999024,
+                                    5.096090316772461,
+                                    28.845293045043947
+                                ],
+                                "WorldRotationQ": [
+                                    0.00682514114305377,
+                                    0.7101457715034485,
+                                    -0.7039891481399536,
+                                    0.00675833597779274
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999998807907105,
+                                    1.0
+                                ],
+                                "Radius": 6.154087066650391,
+                                "Capsule Length": 35.0991096496582
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.0002587957715149969,
+                                    2.351029396057129,
+                                    124.38543701171875
+                                ],
+                                "WorldRotationQ": [
+                                    0.444191038608551,
+                                    0.5501766204833984,
+                                    0.444191038608551,
+                                    0.5501766204833984
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 12.762815475463868,
+                                "Capsule Length": 6.1754150390625
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.000058569272368913519,
+                                    6.574007987976074,
+                                    151.27333068847657
+                                ],
+                                "WorldRotationQ": [
+                                    0.8053364753723145,
+                                    -7.741630270174937e-8,
+                                    7.524030110062086e-8,
+                                    0.5928179621696472
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999998807907105,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.2611188888549809,
+                                "Capsule Length": 5.3052263259887699
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0027534381952136757,
+                                    6.641162395477295,
+                                    137.7491455078125
+                                ],
+                                "WorldRotationQ": [
+                                    0.5694588422775269,
+                                    0.4191855788230896,
+                                    0.5694589614868164,
+                                    0.4191856384277344
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999998807907105,
+                                    1.0
+                                ],
+                                "Radius": 11.73533821105957,
+                                "Capsule Length": 12.64974594116211
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.99906063079834,
+                                    0.8488127589225769,
+                                    135.6394500732422
+                                ],
+                                "WorldRotationQ": [
+                                    0.284347265958786,
+                                    0.6474152207374573,
+                                    0.28434720635414126,
+                                    0.6474154591560364
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.9999998211860657,
+                                    1.0
+                                ],
+                                "Radius": 7.259902000427246,
+                                "Capsule Length": 13.24941635131836
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.000940322875977,
+                                    0.8488127589225769,
+                                    135.63946533203126
+                                ],
+                                "WorldRotationQ": [
+                                    0.284347265958786,
+                                    0.6474152207374573,
+                                    0.28434720635414126,
+                                    0.6474154591560364
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.9999998211860657,
+                                    1.0
+                                ],
+                                "Radius": 7.259902000427246,
+                                "Capsule Length": 13.24941635131836
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.00008146047912305221,
+                                    2.553438186645508,
+                                    164.47813415527345
+                                ],
+                                "WorldRotationQ": [
+                                    0.7075024247169495,
+                                    0.0,
+                                    0.0,
+                                    0.706710934638977
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999999403953552,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.752142429351807,
+                                "Capsule Length": 7.28554630279541
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    28.151926040649415,
+                                    9.199095726013184,
+                                    142.79776000976563
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4980446696281433,
+                                    -0.49912822246551516,
+                                    0.506159782409668,
+                                    -0.4966133236885071
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999998211860657,
+                                    1.0
+                                ],
+                                "Radius": 5.045426368713379,
+                                "Capsule Length": 22.943696975708009
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    55.93670654296875,
+                                    8.430313110351563,
+                                    143.73046875
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4968833327293396,
+                                    -0.5003376603126526,
+                                    0.5066069960594177,
+                                    -0.49610331654548647
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999997615814209,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 4.368338584899902,
+                                "Capsule Length": 21.781402587890626
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    75.127197265625,
+                                    7.127662658691406,
+                                    143.18312072753907
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4885677397251129,
+                                    -0.5060219764709473,
+                                    0.5085973143577576,
+                                    -0.496560275554657
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Extent": [
+                                    4.522909164428711,
+                                    9.572021484375,
+                                    8.07064437866211
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -28.15898323059082,
+                                    9.199000358581543,
+                                    142.79837036132813
+                                ],
+                                "WorldRotationQ": [
+                                    0.4980478882789612,
+                                    -0.49912673234939577,
+                                    0.5061547756195068,
+                                    0.4966166913509369
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.999999463558197,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 5.0451884269714359,
+                                "Capsule Length": 22.957794189453126
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -55.93052673339844,
+                                    8.429941177368164,
+                                    143.73184204101563
+                                ],
+                                "WorldRotationQ": [
+                                    0.4968840479850769,
+                                    -0.5003383159637451,
+                                    0.5066006779670715,
+                                    0.4961084723472595
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 4.368196964263916,
+                                "Capsule Length": 21.76650619506836
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -75.14041137695313,
+                                    7.394087314605713,
+                                    143.15798950195313
+                                ],
+                                "WorldRotationQ": [
+                                    0.4885685443878174,
+                                    -0.5060223340988159,
+                                    0.5085910558700562,
+                                    0.49656546115875246
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999996423721314,
+                                    1.000000238418579
+                                ],
+                                "Extent": [
+                                    5.314800262451172,
+                                    9.573328018188477,
+                                    8.195561408996582
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Base_Tongue": {
+                        "Materials": {
+                            "Std_Tongue": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tongue_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tongue_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Reflection": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTongue",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_GradAO.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 4.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "_Brightness": 1.0,
+                                        "_Desaturation": 0.20000000298023225,
+                                        "Front Roughness": 1.0,
+                                        "Front Specular": 0.2590000033378601,
+                                        "Back Roughness": 1.0,
+                                        "Back Specular": 0.0,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "_Scatter": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Body": {
+                        "Materials": {
+                            "Std_Skin_Head": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Head_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Head_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLHead",
+                                    "Image": {
+                                        "Specular Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SpecMask.jpg"
+                                        },
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png"
+                                        },
+                                        "Mouth Cavity Mask and AO": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MNAOMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Cheek Fore UpperLip Chin Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga"
+                                        },
+                                        "Ear Neck Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga"
+                                        },
+                                        "Nose Mouth UpperInnerLid Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga"
+                                        },
+                                        "BaseColor Blend2": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg"
+                                        },
+                                        "NormalMap Blend": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BaseColor Blend2 Strength": 0.0,
+                                        "NormalMap Blend Strength": 0.0,
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.054999999701976779,
+                                        "Nose Roughness Scale": -0.008999999612569809,
+                                        "Mouth Roughness Scale": 0.07000000029802323,
+                                        "UpperLid Roughness Scale": -0.10100000351667404,
+                                        "InnerLid Roughness Scale": -0.2199999988079071,
+                                        "Ear Roughness Scale": 0.0,
+                                        "Neck Roughness Scale": 0.0,
+                                        "Cheek Roughness Scale": 0.0,
+                                        "Forehead Roughness Scale": 0.0,
+                                        "UpperLip Roughness Scale": 0.0,
+                                        "Chin Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "Inner Mouth Ao": 2.5,
+                                        "Nostril Ao": 3.5,
+                                        "Lips Gap Ao": 2.5,
+                                        "Nose Scatter Scale": 1.0,
+                                        "Mouth Scatter Scale": 1.0,
+                                        "UpperLid Scatter Scale": 1.0,
+                                        "InnerLid Scatter Scale": 1.0,
+                                        "Ear Scatter Scale": 1.0,
+                                        "Neck Scatter Scale": 1.0,
+                                        "Cheek Scatter Scale": 1.0,
+                                        "Forehead Scatter Scale": 1.0,
+                                        "UpperLip Scatter Scale": 1.0,
+                                        "Chin Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "padding ActiveBlend": 0.0,
+                                        "_Blend Map Color": [
+                                            190.0,
+                                            144.00001525878907,
+                                            121.00000762939453
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            190.0,
+                                            144.00001525878907,
+                                            121.00000762939453
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Body_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.054999999701976779,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            185.0,
+                                            142.00001525878907,
+                                            119.99999237060547
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            185.0,
+                                            142.00001525878907,
+                                            119.99999237060547
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Arm": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Arm_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Arm_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.054999999701976779,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            169.0,
+                                            132.0,
+                                            110.99999237060547
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            169.0,
+                                            132.0,
+                                            110.99999237060547
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Leg": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Leg_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Skin_Leg_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.054999999701976779,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            195.0,
+                                            145.0,
+                                            125.99999237060547
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            195.0,
+                                            145.0,
+                                            125.99999237060547
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Nails": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Nails_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Nails_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            214.0,
+                                            166.00001525878907,
+                                            151.00001525878907
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            214.0,
+                                            166.00001525878907,
+                                            151.00001525878907
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eyelash_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Eyelash/Std_Eyelash_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/ManInConcourse/CC_Base_Body/Std_Eyelash/Std_Eyelash_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_R_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.3499999940395355,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.597000002861023,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9679999947547913,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 9.026000022888184,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.7540000081062317,
+                                        "Sclera UV Radius": 0.8999999761581421
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_L_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.3499999940395355,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.597000002861023,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9679999947547913,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 9.026000022888184,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.7540000081062317,
+                                        "Sclera UV Radius": 0.8999999761581421
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Upper_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Upper_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Lower_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Lower_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/ManInConcourse/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_EyeOcclusion": {
+                        "Materials": {
+                            "Std_Eye_Occlusion_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 0.5299999713897705,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            31.0,
+                                            17.0
+                                        ],
+                                        "Shadow Strength": 0.30000001192092898,
+                                        "Shadow Top": 0.25,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.8199999928474426,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.5,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.20000000298023225,
+                                        "Shadow Inner Corner Range": 0.800000011920929,
+                                        "Tear Duct Shadow Offset": 0.20000000298023225,
+                                        "Shadow Outer Corner": 0.15000000596046449,
+                                        "Shadow Outer Corner Range": 0.800000011920929,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.5,
+                                        "Shadow2 Top": 0.20000000298023225,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            },
+                            "Std_Eye_Occlusion_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 0.5299999713897705,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            31.0,
+                                            17.0
+                                        ],
+                                        "Shadow Strength": 0.30000001192092898,
+                                        "Shadow Top": 0.25,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.8199999928474426,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.5,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.20000000298023225,
+                                        "Shadow Inner Corner Range": 0.800000011920929,
+                                        "Tear Duct Shadow Offset": 0.20000000298023225,
+                                        "Shadow Outer Corner": 0.15000000596046449,
+                                        "Shadow Outer Corner Range": 0.800000011920929,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.5,
+                                        "Shadow2 Top": 0.20000000298023225,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_TearLine": {
+                        "Materials": {
+                            "Std_Tearline_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            },
+                            "Std_Tearline_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./ManInConcourse.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Boxers": {
+                        "Materials": {
+                            "Boxers": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    208.00001525878907,
+                                    208.00001525878907,
+                                    208.00001525878907
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Glow": {
+                                        "Texture Path": "./textures/ManInConcourse/Boxers/Boxers/Boxers/Boxers_Glow.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Displacement": {
+                                        "Texture Path": "./textures/ManInConcourse/Boxers/Boxers/Boxers/Boxers_Displacement.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Displacement Map": "Gray Scale Displacement",
+                                        "Tessellation Level": 0.0,
+                                        "Multiplier": 1.0,
+                                        "Gray-scale Base Value": 0.5
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/ManInConcourse/Boxers/Boxers/Boxers/Boxers_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/Boxers/Boxers/Boxers/Boxers_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/Boxers/Boxers/Boxers/Boxers_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "M_Casual_13_L": {
+                        "Materials": {
+                            "M_Casual_13_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./ManInConcourse.fbm/M_Casual_13_L_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./ManInConcourse.fbm/M_Casual_13_L_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/ManInConcourse/M_Casual_13_L/M_Casual_13_L/M_Casual_13_L/M_Casual_13_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/ManInConcourse/M_Casual_13_L/M_Casual_13_L/M_Casual_13_L/M_Casual_13_L_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

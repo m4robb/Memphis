@@ -1,0 +1,2647 @@
+﻿{
+    "LoResWomanWaiting": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Object": {
+            "LoResWomanWaiting": {
+                "Generation": "RL_CharacterCreator_Base_Game_G1_Divide_Eyelash_UV",
+                "Physics": {
+                    "Collision Shapes": {
+                        "pelvis": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.579738140106201,
+                                    2.7055294513702394,
+                                    101.7375717163086
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121437430381775,
+                                    0.07486705482006073,
+                                    -0.10691472142934799,
+                                    0.5686710476875305
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.000000238418579,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 9.339056968688965,
+                                "Capsule Length": 22.12552833557129
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.419428825378418,
+                                    2.479644775390625,
+                                    102.33721923828125
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121432065963745,
+                                    -0.07486623525619507,
+                                    0.1069270446896553,
+                                    0.5686694979667664
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 9.339056968688965,
+                                "Capsule Length": 21.503252029418947
+                            }
+                        },
+                        "thigh_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    9.469626426696778,
+                                    1.8294711112976075,
+                                    75.3718490600586
+                                ],
+                                "WorldRotationQ": [
+                                    -0.03275584802031517,
+                                    0.7438628077507019,
+                                    -0.6665357351303101,
+                                    -0.03640415146946907
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999997615814209,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.741215705871582,
+                                "Capsule Length": 33.47919464111328
+                            }
+                        },
+                        "calf_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    8.245448112487793,
+                                    5.014439105987549,
+                                    30.908048629760743
+                                ],
+                                "WorldRotationQ": [
+                                    -0.0046022613532841209,
+                                    0.7088350653648377,
+                                    -0.7053425312042236,
+                                    -0.004858843050897121
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    0.9999997615814209,
+                                    0.9999997019767761
+                                ],
+                                "Radius": 5.811293601989746,
+                                "Capsule Length": 33.620269775390628
+                            }
+                        },
+                        "thigh_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -9.243108749389649,
+                                    2.0603621006011965,
+                                    73.07958221435547
+                                ],
+                                "WorldRotationQ": [
+                                    0.03274654969573021,
+                                    0.7435042858123779,
+                                    -0.6669349074363709,
+                                    0.03642598167061806
+                                ],
+                                "WorldScale": [
+                                    1.0000003576278687,
+                                    0.9999998211860657,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.777103900909424,
+                                "Capsule Length": 38.07892608642578
+                            }
+                        },
+                        "calf_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -8.24497127532959,
+                                    4.991301536560059,
+                                    30.90920066833496
+                                ],
+                                "WorldRotationQ": [
+                                    0.004611277487128973,
+                                    0.7091689109802246,
+                                    -0.7050068378448486,
+                                    0.004859630949795246
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999997615814209,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.810449123382568,
+                                "Capsule Length": 33.614295959472659
+                            }
+                        },
+                        "spine_02": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0005290621193125844,
+                                    0.8675828576087952,
+                                    123.00047302246094
+                                ],
+                                "WorldRotationQ": [
+                                    0.45536085963249209,
+                                    0.5409796833992004,
+                                    0.4553532898426056,
+                                    0.5409629940986633
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 11.629993438720704,
+                                "Capsule Length": 6.390514373779297
+                            }
+                        },
+                        "upperarm_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    22.779165267944337,
+                                    7.471132755279541,
+                                    136.4065399169922
+                                ],
+                                "WorldRotationQ": [
+                                    0.4985383450984955,
+                                    0.5014615058898926,
+                                    -0.5007874965667725,
+                                    0.499207079410553
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999995231628418,
+                                    0.9999996423721314
+                                ],
+                                "Radius": 5.2370147705078129,
+                                "Capsule Length": 19.87700843811035
+                            }
+                        },
+                        "lowerarm_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    49.79029083251953,
+                                    6.959987163543701,
+                                    137.6082763671875
+                                ],
+                                "WorldRotationQ": [
+                                    -0.49908941984176638,
+                                    -0.5009123682975769,
+                                    0.5011770129203796,
+                                    -0.4988168179988861
+                                ],
+                                "WorldScale": [
+                                    1.0000003576278687,
+                                    0.9999997019767761,
+                                    1.0
+                                ],
+                                "Radius": 4.65012788772583,
+                                "Capsule Length": 19.08824920654297
+                            }
+                        },
+                        "upperarm_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -22.779016494750978,
+                                    7.471580505371094,
+                                    136.40689086914063
+                                ],
+                                "WorldRotationQ": [
+                                    -0.49856144189834597,
+                                    0.5014321804046631,
+                                    -0.5007941722869873,
+                                    -0.4992068409919739
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999997019767761,
+                                    1.0
+                                ],
+                                "Radius": 5.236368179321289,
+                                "Capsule Length": 19.87843894958496
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -25.52654457092285,
+                                    6.912111282348633,
+                                    137.65367126464845
+                                ],
+                                "WorldRotationQ": [
+                                    -0.49856144189834597,
+                                    0.5014321804046631,
+                                    -0.5007941722869873,
+                                    -0.4992068409919739
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999997019767761,
+                                    1.0
+                                ],
+                                "Radius": 4.738912582397461,
+                                "Capsule Length": 22.378597259521486
+                            }
+                        },
+                        "neck_01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.07093668729066849,
+                                    4.75095796585083,
+                                    145.8259735107422
+                                ],
+                                "WorldRotationQ": [
+                                    0.7836184501647949,
+                                    -0.004765228368341923,
+                                    0.00369909661822021,
+                                    0.6212131381034851
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999999403953552,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 4.799605369567871,
+                                "Capsule Length": 0.18861103057861329
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.07013721019029618,
+                                    4.404342174530029,
+                                    133.7050018310547
+                                ],
+                                "WorldRotationQ": [
+                                    0.5514863133430481,
+                                    0.4358944892883301,
+                                    0.556717574596405,
+                                    0.4426335394382477
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.65949821472168,
+                                "Capsule Length": 13.492595672607422
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.889226913452148,
+                                    2.1376900672912599,
+                                    129.63705444335938
+                                ],
+                                "WorldRotationQ": [
+                                    0.26043474674224856,
+                                    0.6529279351234436,
+                                    0.2616056799888611,
+                                    0.6613783836364746
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.620145797729492,
+                                "Capsule Length": 3.9281845092773439
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.109755516052246,
+                                    2.0974764823913576,
+                                    129.8011016845703
+                                ],
+                                "WorldRotationQ": [
+                                    0.26043474674224856,
+                                    0.6529279351234436,
+                                    0.2616056799888611,
+                                    0.6613783836364746
+                                ],
+                                "WorldScale": [
+                                    0.9999998807907105,
+                                    1.0,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.620145797729492,
+                                "Capsule Length": 3.9281845092773439
+                            }
+                        },
+                        "head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.11479468643665314,
+                                    0.8923468589782715,
+                                    156.14137268066407
+                                ],
+                                "WorldRotationQ": [
+                                    0.7071053385734558,
+                                    0.0000058735772654472388,
+                                    0.000002382463208050467,
+                                    0.707108199596405
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999996423721314,
+                                    0.9999996423721314
+                                ],
+                                "Radius": 7.450114727020264,
+                                "Capsule Length": 8.070034980773926
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Game_Body": {
+                        "Materials": {
+                            "Ga_Skin_Body_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    254.00001525878907,
+                                    254.00001525878907,
+                                    254.00001525878907
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Skin_Body_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Body/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Body/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Ga_Eyelash_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    123.00000762939453,
+                                    123.00000762939453,
+                                    123.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Body/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Body/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Game_Tongue": {
+                        "Materials": {
+                            "Ga_Skin_Body_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    254.00001525878907,
+                                    254.00001525878907,
+                                    254.00001525878907
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Skin_Body_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Ga_Eyelash_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    123.00000762939453,
+                                    123.00000762939453,
+                                    123.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Ga_Eyelash_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/LoResWomanWaiting/CC_Game_Tongue/Ga_Eyelash_Pbr/Ga_Eyelash_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Long_slim_coat": {
+                        "Materials": {
+                            "Long_slim_coat_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Long_slim_coat_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Long_slim_coat_Pbr_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/Long_slim_coat/Long_slim_coat/Long_slim_coat_Pbr/Long_slim_coat_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/Long_slim_coat/Long_slim_coat/Long_slim_coat_Pbr/Long_slim_coat_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/Long_slim_coat/Long_slim_coat/Long_slim_coat_Pbr/Long_slim_coat_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "shirt_bl1": {
+                        "Materials": {
+                            "Material_1_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    12.973402976989746,
+                                    12.973402976989746,
+                                    12.973402976989746
+                                ],
+                                "Specular Color": [
+                                    1.3155990839004517,
+                                    0.0,
+                                    204.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_1_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_1_Pbr_Normal.png",
+                                        "Strength": 150.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_1_Pbr/Material_1_Pbr_ao.tga",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_1_Pbr/Material_1_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_1_Pbr/Material_1_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Material_2_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    12.973402976989746,
+                                    12.973402976989746,
+                                    12.973402976989746
+                                ],
+                                "Specular Color": [
+                                    1.3155990839004517,
+                                    0.0,
+                                    204.00001525878907
+                                ],
+                                "Opacity": 0.75,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_2_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_2_Pbr_Normal.png",
+                                        "Strength": 150.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_2_Pbr/Material_2_Pbr_ao.tga",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            4.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_2_Pbr/Material_2_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_2_Pbr/Material_2_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Material_3_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_3_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_3_Pbr_Bump.jpg",
+                                        "Strength": 51.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            3.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_3_Pbr/Material_3_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_3_Pbr/Material_3_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Material_4_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_4_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Material_4_Pbr_Bump.jpg",
+                                        "Strength": 51.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            3.0,
+                                            4.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_4_Pbr/Material_4_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/shirt_bl1/shirt_bl1/Material_4_Pbr/Material_4_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JeggingsWithButton2": {
+                        "Materials": {
+                            "LAMBSKIN_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/LAMBSKIN_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/LAMBSKIN_Pbr_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/LAMBSKIN_Pbr/LAMBSKIN_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/LAMBSKIN_Pbr/LAMBSKIN_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/LAMBSKIN_Pbr/LAMBSKIN_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "DENIM_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/DENIM_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Blend": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/DENIM_Pbr/DENIM_Pbr_blend_multiply.jpg",
+                                        "Strength": 35.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Blend Mode": "Multiply"
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/DENIM_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/DENIM_Pbr/DENIM_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/DENIM_Pbr/DENIM_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/DENIM_Pbr/DENIM_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Buttonhole_Tra": {
+                                "Material Type": "Tra",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Specular": 0.0,
+                                "Glossiness": 0.04999999701976776,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Buttonhole_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Buttonhole_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Buttonhole_Tra_Normal.jpg",
+                                        "Strength": 200.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/Buttonhole_Tra/Buttonhole_Tra_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Button_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Button_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Button_Pbr_Normal.tga",
+                                        "Strength": 150.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/Button_Pbr/Button_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/Button_Pbr/Button_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/JeggingsWithButton2/JeggingsWithButton2/Button_Pbr/Button_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "WT_Boots_L": {
+                        "Materials": {
+                            "WT_Boots_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    127.5,
+                                    127.5,
+                                    127.5
+                                ],
+                                "Ambient Color": [
+                                    127.5,
+                                    127.5,
+                                    127.5
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/WT_Boots_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/WT_Boots_L_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_L_Pbr/WT_Boots_L_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_L_Pbr/WT_Boots_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_L_Pbr/WT_Boots_L_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "WT_Boots_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    127.5,
+                                    127.5,
+                                    127.5
+                                ],
+                                "Ambient Color": [
+                                    127.5,
+                                    127.5,
+                                    127.5
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/WT_Boots_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/WT_Boots_R_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_R_Pbr/WT_Boots_R_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_R_Pbr/WT_Boots_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/WT_Boots_L/WT_Boots_L/WT_Boots_R_Pbr/WT_Boots_R_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Eye_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Eye_R_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Eye_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Eye_L_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Upper_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Upper_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Lower_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/Std_Lower_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/LoResWomanWaiting/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "Haircut": {
+                        "Materials": {
+                            "obj_default_Transparency_Tra": {
+                                "Material Type": "Tra",
+                                "MultiUV Index": 0,
+                                "Node Type": "Hair",
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Ambient Color": [
+                                    51.0,
+                                    51.0,
+                                    51.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Specular": 0.0,
+                                "Glossiness": 0.10000000149011612,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResWomanWaiting.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

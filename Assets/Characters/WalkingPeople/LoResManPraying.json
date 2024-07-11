@@ -1,0 +1,1603 @@
+﻿{
+    "LoResManPraying": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Object": {
+            "LoResManPraying": {
+                "Generation": "RL_CharacterCreator_Base_Game_G1_One_UV",
+                "Physics": {
+                    "Collision Shapes": {
+                        "pelvis": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.579630374908447,
+                                    2.9032657146453859,
+                                    105.88302612304688
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121438026428223,
+                                    0.07486686110496521,
+                                    -0.10691443085670471,
+                                    0.5686710476875305
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 9.339056968688965,
+                                "Capsule Length": 22.12552833557129
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.4195380210876469,
+                                    2.6773810386657717,
+                                    106.48268127441406
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121432065963745,
+                                    -0.07486643642187119,
+                                    0.10692734271287918,
+                                    0.5686694383621216
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 9.339056968688965,
+                                "Capsule Length": 21.503252029418947
+                            }
+                        },
+                        "thigh_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    10.378743171691895,
+                                    2.1703126430511476,
+                                    79.28475952148438
+                                ],
+                                "WorldRotationQ": [
+                                    -0.03406349569559097,
+                                    0.7436542510986328,
+                                    -0.6666164994239807,
+                                    -0.037954043596982959
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Radius": 7.741215229034424,
+                                "Capsule Length": 33.47918701171875
+                            }
+                        },
+                        "calf_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    9.021865844726563,
+                                    5.361513614654541,
+                                    30.756263732910158
+                                ],
+                                "WorldRotationQ": [
+                                    -0.0032240296714007856,
+                                    0.7087907195091248,
+                                    -0.7054028511047363,
+                                    -0.0034875499550253155
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999996423721314,
+                                    0.9999997019767761
+                                ],
+                                "Radius": 5.811293125152588,
+                                "Capsule Length": 33.62028121948242
+                            }
+                        },
+                        "thigh_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -10.143411636352539,
+                                    2.3946900367736818,
+                                    76.99346160888672
+                                ],
+                                "WorldRotationQ": [
+                                    0.034042783081531528,
+                                    0.7432031035423279,
+                                    -0.667119562625885,
+                                    0.037970855832099918
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999997019767761,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 7.777103900909424,
+                                "Capsule Length": 38.07893753051758
+                            }
+                        },
+                        "calf_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -9.022787094116211,
+                                    5.326329708099365,
+                                    30.757722854614259
+                                ],
+                                "WorldRotationQ": [
+                                    0.0032342805061489345,
+                                    0.7092007398605347,
+                                    -0.704990565776825,
+                                    0.003480527549982071
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999994039535523,
+                                    0.9999996423721314
+                                ],
+                                "Radius": 5.810449600219727,
+                                "Capsule Length": 33.61430740356445
+                            }
+                        },
+                        "spine_02": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0006152563728392124,
+                                    1.988254427909851,
+                                    129.0667266845703
+                                ],
+                                "WorldRotationQ": [
+                                    0.4458428919315338,
+                                    0.5488525032997131,
+                                    0.44583290815353396,
+                                    0.5488333702087402
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 11.629993438720704,
+                                "Capsule Length": 6.390514373779297
+                            }
+                        },
+                        "upperarm_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    26.692325592041017,
+                                    9.629535675048829,
+                                    148.0794677734375
+                                ],
+                                "WorldRotationQ": [
+                                    -0.4916737377643585,
+                                    -0.5080126523971558,
+                                    0.5157701373100281,
+                                    -0.48390212655067446
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999998807907105,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.237015724182129,
+                                "Capsule Length": 19.87700080871582
+                            }
+                        },
+                        "lowerarm_l": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    54.45650863647461,
+                                    8.66545581817627,
+                                    148.5221405029297
+                                ],
+                                "WorldRotationQ": [
+                                    -0.5033479928970337,
+                                    -0.49662676453590395,
+                                    0.504462480545044,
+                                    -0.4955000579357147
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999996423721314,
+                                    0.9999997615814209
+                                ],
+                                "Radius": 4.650130271911621,
+                                "Capsule Length": 19.088245391845704
+                            }
+                        },
+                        "upperarm_r": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -26.692007064819337,
+                                    9.629039764404297,
+                                    148.07943725585938
+                                ],
+                                "WorldRotationQ": [
+                                    0.49166616797447207,
+                                    -0.5080123543739319,
+                                    0.5158035159111023,
+                                    0.48387444019317629
+                                ],
+                                "WorldScale": [
+                                    0.9999995827674866,
+                                    0.9999994039535523,
+                                    0.9999995231628418
+                                ],
+                                "Radius": 5.236370086669922,
+                                "Capsule Length": 19.878446578979493
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -29.481687545776368,
+                                    9.022931098937989,
+                                    149.20489501953126
+                                ],
+                                "WorldRotationQ": [
+                                    0.49166616797447207,
+                                    -0.5080123543739319,
+                                    0.5158035159111023,
+                                    0.48387444019317629
+                                ],
+                                "WorldScale": [
+                                    0.9999995827674866,
+                                    0.9999994039535523,
+                                    0.9999995231628418
+                                ],
+                                "Radius": 4.73891544342041,
+                                "Capsule Length": 22.37860107421875
+                            }
+                        },
+                        "neck_01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.07262737303972244,
+                                    6.836805820465088,
+                                    158.5782928466797
+                                ],
+                                "WorldRotationQ": [
+                                    0.7873552441596985,
+                                    -0.00457580853253603,
+                                    0.0035504500847309829,
+                                    0.6164723634719849
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    0.9999997615814209,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 4.7996063232421879,
+                                "Capsule Length": 0.18861007690429688
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.06303147226572037,
+                                    6.636571407318115,
+                                    146.4539794921875
+                                ],
+                                "WorldRotationQ": [
+                                    0.554233729839325,
+                                    0.43267619609832766,
+                                    0.5592547655105591,
+                                    0.43914738297462466
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.659499645233154,
+                                "Capsule Length": 13.492594718933106
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.897762775421143,
+                                    4.417903900146484,
+                                    142.36207580566407
+                                ],
+                                "WorldRotationQ": [
+                                    0.2644214928150177,
+                                    0.651509702205658,
+                                    0.26554393768310549,
+                                    0.6596232056617737
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.62014627456665,
+                                "Capsule Length": 3.92818546295166
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.101301670074463,
+                                    4.3783111572265629,
+                                    142.5193328857422
+                                ],
+                                "WorldRotationQ": [
+                                    0.2644214928150177,
+                                    0.651509702205658,
+                                    0.26554393768310549,
+                                    0.6596232056617737
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 6.62014627456665,
+                                "Capsule Length": 3.92818546295166
+                            }
+                        },
+                        "head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.12573212385177613,
+                                    2.7074263095855715,
+                                    169.80615234375
+                                ],
+                                "WorldRotationQ": [
+                                    0.7071053385734558,
+                                    0.000005875809165445389,
+                                    0.0000023810384846001399,
+                                    0.707108199596405
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999997615814209,
+                                    0.9999997615814209
+                                ],
+                                "Radius": 7.4501142501831059,
+                                "Capsule Length": 8.070032119750977
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Game_Tongue": {
+                        "Materials": {
+                            "Ga_Skin_Body_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    123.00000762939453,
+                                    123.00000762939453,
+                                    123.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Reflection": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Game_Body": {
+                        "Materials": {
+                            "Ga_Skin_Body_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    123.00000762939453,
+                                    123.00000762939453,
+                                    123.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Ga_Skin_Body_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Reflection": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Tongue/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Body/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/LoResManPraying/CC_Game_Body/Ga_Skin_Body_Pbr/Ga_Skin_Body_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "M_Casual_13_H": {
+                        "Materials": {
+                            "M_Casual_13_H_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/M_Casual_13_H_Pbr_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/M_Casual_13_H_Pbr_Normal.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/M_Casual_13_H/M_Casual_13_H/M_Casual_13_H_Pbr/M_Casual_13_H_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/M_Casual_13_H/M_Casual_13_H/M_Casual_13_H_Pbr/M_Casual_13_H_Pbr_HDRP.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Eye_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Eye_R_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Eye_R_Pbr/Std_Eye_R_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Cornea_R_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.3499999940395355,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.597000002861023,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9679999947547913,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 9.026000022888184,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.7540000081062317,
+                                        "Sclera UV Radius": 0.8999999761581421
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Eye_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Eye_L_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Eye_L_Pbr/Std_Eye_L_Pbr_HDRP.png"
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Cornea_L_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L_Pbr/Std_Cornea_L_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.3499999940395355,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.597000002861023,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9679999947547913,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 9.026000022888184,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.7540000081062317,
+                                        "Sclera UV Radius": 0.8999999761581421
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Upper_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Upper_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth_Pbr/Std_Upper_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth_Pbr": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Lower_Teeth_Pbr_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./LoResManPraying.fbm/Std_Lower_Teeth_Pbr_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_HDRP.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R_Pbr/Std_Cornea_R_Pbr_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/LoResManPraying/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth_Pbr/Std_Lower_Teeth_Pbr_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "Haircut": {
+                        "Materials": {
+                            "obj_default_Transparency_Tra": {
+                                "Material Type": "Tra",
+                                "MultiUV Index": 0,
+                                "Node Type": "Hair",
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Ambient Color": [
+                                    51.0,
+                                    51.0,
+                                    51.0
+                                ],
+                                "Specular Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Specular": 0.0,
+                                "Glossiness": 0.10000000149011612,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./LoResManPraying.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./LoResManPraying.fbm/obj_default_Transparency_Tra_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

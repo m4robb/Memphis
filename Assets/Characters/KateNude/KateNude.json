@@ -1,0 +1,3206 @@
+﻿{
+    "KateNude": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "D:/Sources/TheFallSources/CharacterCreator/KateNude",
+        "Object": {
+            "KateNude": {
+                "Generation": "RL_CC3_Plus",
+                "Physics": {
+                    "Collision Shapes": {
+                        "CC_Base_Hip": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -5.457144260406494,
+                                    1.8297384977340699,
+                                    97.93450927734375
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121442198753357,
+                                    0.07486339658498764,
+                                    -0.10691619664430618,
+                                    0.5686705112457275
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0
+                                ],
+                                "Radius": 8.692729949951172,
+                                "Capsule Length": 24.919788360595704
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    5.457526683807373,
+                                    1.8297384977340699,
+                                    97.93463134765625
+                                ],
+                                "WorldRotationQ": [
+                                    0.8121430277824402,
+                                    -0.07486994564533234,
+                                    0.10692553222179413,
+                                    0.5686696171760559
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.692729949951172,
+                                "Capsule Length": 24.919788360595704
+                            }
+                        },
+                        "CC_Base_L_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    9.025971412658692,
+                                    2.102761745452881,
+                                    67.58198547363281
+                                ],
+                                "WorldRotationQ": [
+                                    -0.01747763901948929,
+                                    0.7150396108627319,
+                                    -0.698555588722229,
+                                    -0.02080979384481907
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    1.0,
+                                    1.000000238418579
+                                ],
+                                "Radius": 8.129142761230469,
+                                "Capsule Length": 40.6805305480957
+                            }
+                        },
+                        "CC_Base_L_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.815849781036377,
+                                    4.981516361236572,
+                                    26.917461395263673
+                                ],
+                                "WorldRotationQ": [
+                                    -0.006278130691498518,
+                                    0.7097465395927429,
+                                    -0.704401433467865,
+                                    -0.006243385374546051
+                                ],
+                                "WorldScale": [
+                                    0.9999996423721314,
+                                    0.9999996423721314,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 6.164679527282715,
+                                "Capsule Length": 35.07794189453125
+                            }
+                        },
+                        "CC_Base_R_Thigh": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -9.022831916809082,
+                                    2.1056718826293947,
+                                    67.57781982421875
+                                ],
+                                "WorldRotationQ": [
+                                    0.020394181832671167,
+                                    0.7151921391487122,
+                                    -0.698399543762207,
+                                    0.01795382611453533
+                                ],
+                                "WorldScale": [
+                                    1.000000238418579,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 8.093393325805664,
+                                "Capsule Length": 40.753700256347659
+                            }
+                        },
+                        "CC_Base_R_Calf": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -7.812262058258057,
+                                    4.964032173156738,
+                                    26.916383743286134
+                                ],
+                                "WorldRotationQ": [
+                                    0.006275238934904337,
+                                    0.7096357345581055,
+                                    -0.7045131921768189,
+                                    0.006242950912564993
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.9999995231628418,
+                                    0.9999998211860657
+                                ],
+                                "Radius": 6.154088020324707,
+                                "Capsule Length": 35.09912872314453
+                            }
+                        },
+                        "CC_Base_Spine01": {
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 2.0,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -0.00003496852150419727,
+                                    1.2558363676071168,
+                                    119.3041000366211
+                                ],
+                                "WorldRotationQ": [
+                                    0.44484126567840578,
+                                    0.5496510863304138,
+                                    0.44484126567840578,
+                                    0.549651026725769
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 12.762815475463868,
+                                "Capsule Length": 6.1754150390625
+                            }
+                        },
+                        "CC_Base_NeckTwist01": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0001661229325691238,
+                                    5.351990699768066,
+                                    141.6564483642578
+                                ],
+                                "WorldRotationQ": [
+                                    0.7871328592300415,
+                                    -6.927630380459959e-8,
+                                    6.752657100150827e-8,
+                                    0.6167835593223572
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999998807907105,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.2611188888549809,
+                                "Capsule Length": 5.3052263259887699
+                            },
+                            "Capsule(0)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Z",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.00252768793143332,
+                                    5.291646480560303,
+                                    128.92776489257813
+                                ],
+                                "WorldRotationQ": [
+                                    0.5565868616104126,
+                                    0.4361318051815033,
+                                    0.5565869808197022,
+                                    0.43613189458847048
+                                ],
+                                "WorldScale": [
+                                    0.9999998211860657,
+                                    0.9999998807907105,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 10.775394439697266,
+                                "Capsule Length": 7.844635009765625
+                            },
+                            "Capsule(1)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -6.998825550079346,
+                                    0.3070213496685028,
+                                    125.0942153930664
+                                ],
+                                "WorldRotationQ": [
+                                    0.2647365927696228,
+                                    0.6556785702705383,
+                                    0.2647365629673004,
+                                    0.6556787490844727
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.259902000427246,
+                                "Capsule Length": 13.24941635131836
+                            },
+                            "Capsule(2)": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    7.001162528991699,
+                                    0.30743691325187685,
+                                    125.09412384033203
+                                ],
+                                "WorldRotationQ": [
+                                    0.2647365927696228,
+                                    0.6556785702705383,
+                                    0.2647365629673004,
+                                    0.6556787490844727
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999998807907105,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 7.259902000427246,
+                                "Capsule Length": 13.24941635131836
+                            }
+                        },
+                        "CC_Base_Head": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    0.0002545518218539655,
+                                    0.9574642181396484,
+                                    153.5916748046875
+                                ],
+                                "WorldRotationQ": [
+                                    0.7074458599090576,
+                                    0.0,
+                                    0.0,
+                                    0.7067674994468689
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    1.0000001192092896,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 7.260692596435547,
+                                "Capsule Length": 7.808662414550781
+                            }
+                        },
+                        "CC_Base_L_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    24.740161895751954,
+                                    7.833414077758789,
+                                    133.510498046875
+                                ],
+                                "WorldRotationQ": [
+                                    0.49920856952667239,
+                                    0.5018787980079651,
+                                    -0.4978864789009094,
+                                    0.5010164976119995
+                                ],
+                                "WorldScale": [
+                                    0.9999999403953552,
+                                    0.9999997019767761,
+                                    0.9999999403953552
+                                ],
+                                "Radius": 5.045426845550537,
+                                "Capsule Length": 22.94369888305664
+                            }
+                        },
+                        "CC_Base_L_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    51.394256591796878,
+                                    7.79123067855835,
+                                    134.5904998779297
+                                ],
+                                "WorldRotationQ": [
+                                    0.4946397840976715,
+                                    0.506401538848877,
+                                    -0.4954065680503845,
+                                    0.5034494400024414
+                                ],
+                                "WorldScale": [
+                                    1.0000001192092896,
+                                    0.9999996423721314,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 3.4949684143066408,
+                                "Capsule Length": 22.913393020629884
+                            }
+                        },
+                        "CC_Base_L_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    68.02394104003906,
+                                    6.297821044921875,
+                                    134.43191528320313
+                                ],
+                                "WorldRotationQ": [
+                                    -0.49115580320358279,
+                                    -0.5069717764854431,
+                                    0.5095498561859131,
+                                    -0.4920412003993988
+                                ],
+                                "WorldScale": [
+                                    1.0,
+                                    0.9999998211860657,
+                                    1.0000001192092896
+                                ],
+                                "Extent": [
+                                    4.522910118103027,
+                                    9.572021484375,
+                                    8.07064437866211
+                                ]
+                            }
+                        },
+                        "CC_Base_R_Upperarm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -24.74675750732422,
+                                    7.833322048187256,
+                                    133.51087951660157
+                                ],
+                                "WorldRotationQ": [
+                                    0.49920886754989626,
+                                    -0.5018786191940308,
+                                    0.49788597226142886,
+                                    0.5010168552398682
+                                ],
+                                "WorldScale": [
+                                    0.9999997019767761,
+                                    0.999999463558197,
+                                    0.9999998807907105
+                                ],
+                                "Radius": 5.0451884269714359,
+                                "Capsule Length": 22.957794189453126
+                            }
+                        },
+                        "CC_Base_R_Forearm": {
+                            "Capsule": {
+                                "Bone Active": true,
+                                "Bound Type": "Capsule",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -51.39493942260742,
+                                    7.790223598480225,
+                                    134.89268493652345
+                                ],
+                                "WorldRotationQ": [
+                                    0.4946400225162506,
+                                    -0.5064014196395874,
+                                    0.49540698528289797,
+                                    0.5034489035606384
+                                ],
+                                "WorldScale": [
+                                    0.9999997615814209,
+                                    0.9999997615814209,
+                                    1.0000001192092896
+                                ],
+                                "Radius": 3.4925577640533449,
+                                "Capsule Length": 22.915067672729493
+                            }
+                        },
+                        "CC_Base_R_Hand": {
+                            "Capsule": {
+                                "Bone Active": false,
+                                "Bound Type": "Box",
+                                "Bound Axis": "Y",
+                                "Margin": 0.800000011920929,
+                                "Friction": 0.05000000074505806,
+                                "Elasticity": 0.5,
+                                "WorldTranslate": [
+                                    -68.03843688964844,
+                                    6.564082622528076,
+                                    134.4086456298828
+                                ],
+                                "WorldRotationQ": [
+                                    0.49115610122680666,
+                                    -0.5069716572761536,
+                                    0.5095503330230713,
+                                    0.4920405447483063
+                                ],
+                                "WorldScale": [
+                                    0.9999995231628418,
+                                    0.9999995827674866,
+                                    0.9999997615814209
+                                ],
+                                "Extent": [
+                                    5.314801216125488,
+                                    9.57332992553711,
+                                    8.195564270019532
+                                ]
+                            }
+                        }
+                    },
+                    "Soft Physics": {
+                        "Meshes": {
+                            "Side_part_wavy": {
+                                "Materials": {
+                                    "Hair_Transparency": {
+                                        "Activate Physics": true,
+                                        "Use Global Gravity": true,
+                                        "Weight Map Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_WeightMap.jpg",
+                                        "Mass": 1.0,
+                                        "Friction": 0.20000000298023225,
+                                        "Damping": 0.20000000298023225,
+                                        "Drag": 0.20000000298023225,
+                                        "Solver Frequency": 150.0,
+                                        "Tether Limit": 0.800000011920929,
+                                        "Elasticity": 6.0,
+                                        "Stretch": 1.0,
+                                        "Bending": 30.0,
+                                        "Inertia": [
+                                            18.0,
+                                            18.0,
+                                            18.0
+                                        ],
+                                        "Soft Vs Rigid Collision": true,
+                                        "Soft Vs Rigid Collision_Margin": 0.0,
+                                        "Self Collision": false,
+                                        "Self Collision Margin": 0.0,
+                                        "Stiffness Frequency": 10.0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Meshes": {
+                    "CC_Base_Tongue": {
+                        "Materials": {
+                            "Std_Tongue": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tongue_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tongue_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLTongue",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_GradAO.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 4.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "_Brightness": 1.0,
+                                        "_Desaturation": 0.05000000074505806,
+                                        "Front Roughness": 1.0,
+                                        "Front Specular": 0.2590000033378601,
+                                        "Back Roughness": 1.0,
+                                        "Back Specular": 0.0,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "_Scatter": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Body": {
+                        "Materials": {
+                            "Std_Skin_Head": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Head_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Head_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ResourceMap_WSNormal.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLHead",
+                                    "Image": {
+                                        "Specular Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SpecMask.jpg"
+                                        },
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png"
+                                        },
+                                        "Mouth Cavity Mask and AO": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MNAOMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Cheek Fore UpperLip Chin Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga"
+                                        },
+                                        "Ear Neck Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga"
+                                        },
+                                        "Nose Mouth UpperInnerLid Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga"
+                                        },
+                                        "BaseColor Blend2": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg"
+                                        },
+                                        "NormalMap Blend": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BaseColor Blend2 Strength": 0.0,
+                                        "NormalMap Blend Strength": 0.0,
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "Nose Roughness Scale": 0.11900000274181366,
+                                        "Mouth Roughness Scale": 0.03400000184774399,
+                                        "UpperLid Roughness Scale": -0.30000001192092898,
+                                        "InnerLid Roughness Scale": -0.5740000009536743,
+                                        "Ear Roughness Scale": 0.0,
+                                        "Neck Roughness Scale": 0.0,
+                                        "Cheek Roughness Scale": 0.0,
+                                        "Forehead Roughness Scale": 0.0,
+                                        "UpperLip Roughness Scale": 0.0,
+                                        "Chin Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.0,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "Inner Mouth Ao": 2.5,
+                                        "Nostril Ao": 2.5,
+                                        "Lips Gap Ao": 2.5,
+                                        "Nose Scatter Scale": 1.0,
+                                        "Mouth Scatter Scale": 1.0,
+                                        "UpperLid Scatter Scale": 1.0,
+                                        "InnerLid Scatter Scale": 1.0,
+                                        "Ear Scatter Scale": 1.0,
+                                        "Neck Scatter Scale": 1.0,
+                                        "Cheek Scatter Scale": 1.0,
+                                        "Forehead Scatter Scale": 1.0,
+                                        "UpperLip Scatter Scale": 1.0,
+                                        "Chin Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "padding ActiveBlend": 0.0,
+                                        "_Blend Map Color": [
+                                            209.0,
+                                            159.0,
+                                            139.0
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            209.0,
+                                            159.0,
+                                            139.0
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Body_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ResourceMap_WSNormal.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            197.0,
+                                            152.00001525878907,
+                                            129.0
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            197.0,
+                                            152.00001525878907,
+                                            129.0
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Arm": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Arm_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Arm_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ResourceMap_WSNormal.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            183.0,
+                                            139.0,
+                                            115.99999237060547
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            183.0,
+                                            139.0,
+                                            115.99999237060547
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Leg": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Leg_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Skin_Leg_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_WSNormal.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 25.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            197.0,
+                                            150.00001525878907,
+                                            132.0
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            197.0,
+                                            150.00001525878907,
+                                            132.0
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Nails": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    68.6969985961914,
+                                    68.6969985961914,
+                                    68.6969985961914
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Nails_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Nails_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_WSNormal.png"
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.05000000074505806,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0,
+                                        "_Active Human Color": 0.0,
+                                        "_Active Blend Map": 0.0,
+                                        "_Blend Map Color": [
+                                            227.0,
+                                            176.0,
+                                            163.0
+                                        ],
+                                        "_Blend Map Strength": 0.20000000298023225,
+                                        "_Active": 0.0,
+                                        "_Skin Color Range": [
+                                            227.0,
+                                            176.0,
+                                            163.0
+                                        ],
+                                        "_Range": 0.5,
+                                        "_Skin Preset": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_Red": 24.28499984741211,
+                                        "_Yellow": 22.058000564575197,
+                                        "_Black": 0.0,
+                                        "padding Last": 0.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046449,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eyelash_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Eyelash/Std_Eyelash_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Eyelash/Std_Eyelash_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {
+                                    "Position": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_Position.png"
+                                    },
+                                    "WSNormal": {
+                                        "Texture Path": "./textures/KateNude/KateNude/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_WSNormal.png"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_R_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {}
+                            },
+                            "Std_Cornea_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Cornea_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    229.00001525878907,
+                                    229.00001525878907,
+                                    229.00001525878907
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_L_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {}
+                            },
+                            "Std_Cornea_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697269,
+                                    50.000003814697269,
+                                    50.000003814697269
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Cornea_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg",
+                                        "Strength": 50.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.30000001192092898,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.9860076904297,
+                                            178.9998016357422
+                                        ],
+                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.549999952316284,
+                                            2.549999952316284
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.0,
+                                            125.0
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.054999999701976779,
+                                        "Limbus Dark Scale": 6.5,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023225,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Upper_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Upper_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.0,
+                                        123.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    225.00001525878907,
+                                    225.00001525878907,
+                                    225.00001525878907
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Lower_Teeth_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "./KateNude.fbm/Std_Lower_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "./textures/KateNude/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.30000001192092898,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.30000001192092898,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 0.699999988079071,
+                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.4000000059604645,
+                                        "Front Specular": 0.10000000149011612,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.0,
+                                        121.0,
+                                        101.0
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_EyeOcclusion": {
+                        "Materials": {
+                            "Std_Eye_Occlusion_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_Occlusion_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            },
+                            "Std_Eye_Occlusion_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Eye_Occlusion_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 1.75,
+                                        "Top Blur Range": 1.2999999523162842,
+                                        "Top Blur Contrast": 2.0,
+                                        "Bottom Blur Range": 0.800000011920929,
+                                        "Bottom Blur Contrast": 1.399999976158142,
+                                        "Outer Corner Blur Range": 1.600000023841858,
+                                        "Outer Corner Blur Contrast": 3.200000047683716,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.44999998807907107,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            85.0,
+                                            24.0,
+                                            14.0
+                                        ],
+                                        "Shadow Strength": 0.20000000298023225,
+                                        "Shadow Top": 0.27000001072883608,
+                                        "Shadow Top Range": 1.0,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.05000000074505806,
+                                        "Shadow Bottom Range": 0.30000001192092898,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.25,
+                                        "Shadow Inner Corner Range": 0.5,
+                                        "Tear Duct Shadow Offset": 0.0,
+                                        "Shadow Outer Corner": 0.20000000298023225,
+                                        "Shadow Outer Corner Range": 0.5,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            61.0,
+                                            21.0,
+                                            11.0
+                                        ],
+                                        "Shadow2 Strength": 0.44999998807907107,
+                                        "Shadow2 Top": 0.15000000596046449,
+                                        "Shadow2 Top Range": 1.0,
+                                        "Depth Offset": 2.0,
+                                        "Fade Distance": 0.20000000298023225,
+                                        "Top Offset": 0.0,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.07000000029802323
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_TearLine": {
+                        "Materials": {
+                            "Std_Tearline_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tearline_R_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R/Std_Tearline_R_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            },
+                            "Std_Tearline_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Std_Tearline_L_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534974,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 1.0
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "Side_part_wavy": {
+                        "Materials": {
+                            "Scalp_Transparency": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Node Type": "Hair",
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Scalp_Transparency_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Scalp_Transparency_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Scalp_Transparency/Scalp_Transparency_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Scalp_Transparency/Scalp_Transparency_MetallicAlpha.png"
+                                    }
+                                },
+                                "Resource Textures": {}
+                            },
+                            "Hair_Transparency": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Node Type": "Hair",
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    208.00001525878907,
+                                    167.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    204.0,
+                                    204.0,
+                                    204.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "./KateNude.fbm/Hair_Transparency_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "./KateNude.fbm/Hair_Transparency_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Blend": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_blend_multiply.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Blend Mode": "Multiply"
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "MetallicAlpha": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_MetallicAlpha.png"
+                                    },
+                                    "HDRP": {
+                                        "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_HDRP.png"
+                                    }
+                                },
+                                "Resource Textures": {},
+                                "Custom Shader": {
+                                    "Shader Name": "RLHair",
+                                    "Image": {
+                                        "Hair Root Map": {
+                                            "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_Hair Root Map.png"
+                                        },
+                                        "Hair ID Map": {
+                                            "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_Hair ID Map.jpg"
+                                        },
+                                        "Hair Flow Map": {
+                                            "Texture Path": "./textures/KateNude/Side_part_wavy/Side_part_wavy/Hair_Transparency/Hair_Transparency_Hair Flow Map.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "TangentVectorColor": [
+                                            255.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "TangentMapFlipGreen": 1.0,
+                                        "AO Map Occlude All Lighting": 0.0,
+                                        "Diffuse Strength": 0.7360000014305115,
+                                        "Hair Roughness Map Strength": 0.6079999804496765,
+                                        "Hair Specular Map Strength": 0.32100000977516177,
+                                        "Specular Strength": 0.8460000157356262,
+                                        "Secondary Specular Strength": 0.4009999930858612,
+                                        "Transmission Strength": 0.1379999965429306,
+                                        "No Back Face Triangles": 0.1509999930858612,
+                                        "VertexGrayToColor": [
+                                            12.0,
+                                            2.0,
+                                            0.0
+                                        ],
+                                        "VertexColorStrength": 0.8019999861717224,
+                                        "ActiveChangeHairColor": 0.0,
+                                        "BaseColorMapStrength": 0.0,
+                                        "padding c4z": 0.0,
+                                        "paddingHasMips": 0.0,
+                                        "RootColor": [
+                                            17.0,
+                                            14.0,
+                                            12.0
+                                        ],
+                                        "padding c5w": 0.0,
+                                        "TipColor": [
+                                            217.0,
+                                            165.0,
+                                            119.0
+                                        ],
+                                        "RootTipBlendMode": 1.0,
+                                        "UseRootTipColor": 1.0,
+                                        "RootColorStrength": 1.0,
+                                        "TipColorStrength": 1.0,
+                                        "InvertRootTip": 0.0,
+                                        "_1st Dye Color": [
+                                            255.0,
+                                            131.0,
+                                            73.0
+                                        ],
+                                        "_1st Dye Strength": 1.0,
+                                        "_1st Dye Distribution from Grayscale": [
+                                            146.26800537109376,
+                                            181.99349975585938,
+                                            232.73849487304688
+                                        ],
+                                        "_1st BlendMode": 0.0,
+                                        "Mask 1st Dye by RootMap": 0.0,
+                                        "Invert 1st Dye RootMap Mask": 0.0,
+                                        "_1st Dye add Specular": 0.6729999780654907,
+                                        "padding c10w": 0.0,
+                                        "_2nd Dye Color": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "_2nd Dye Strength": 1.0,
+                                        "_2nd Dye Distribution from Grayscale": [
+                                            24.173999786376954,
+                                            92.41200256347656,
+                                            141.8054962158203
+                                        ],
+                                        "_2nd BlendMode": 1.0,
+                                        "Mask 2nd Dye by RootMap": 0.4880000054836273,
+                                        "Invert 2nd Dye RootMap Mask": 0.0,
+                                        "_2nd Dye add Specular": 0.0,
+                                        "padding c13w": 0.0,
+                                        "BlackColor Reflection Offset X": -0.09000000357627869,
+                                        "BlackColor Reflection Offset Y": -0.10199999809265137,
+                                        "BlackColor Reflection Offset Z": -0.5270000100135803,
+                                        "padding c14w": 0.0,
+                                        "WhiteColor Reflection Offset X": 0.19200000166893006,
+                                        "WhiteColor Reflection Offset Y": 0.029999999329447748,
+                                        "WhiteColor Reflection Offset Z": 0.0,
+                                        "padding c15w": 0.0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
