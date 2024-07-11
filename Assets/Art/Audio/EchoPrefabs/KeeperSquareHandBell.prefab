@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1817528416007889906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3190848392500484801}
+  - component: {fileID: 4952385746049840379}
+  m_Layer: 0
+  m_Name: KeeperSquareHandBell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3190848392500484801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817528416007889906}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4952385746049840379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817528416007889906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdfe7ec3aad59b46bbcdb9554455db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _AS: {fileID: 0}
+  AudioClipArray:
+  - {fileID: 8300000, guid: 73593c3df8a63454aa0621aadf9ddf0f, type: 3}
+  - {fileID: 8300000, guid: 1b38c42252e490e43b3468469ecca6c1, type: 3}
+  - {fileID: 8300000, guid: 35dc2b0d55593354f8df76f68fd86271, type: 3}
+  - {fileID: 8300000, guid: e2b200cd949e97749902d3455b5f16ca, type: 3}
+  - {fileID: 8300000, guid: 685b9111669d5024bacfef417e9fcf64, type: 3}
+  - {fileID: 8300000, guid: 4983d37af81efbd42a17bdd06f42e73b, type: 3}
+  - {fileID: 8300000, guid: 64a841318e63b5444ae800bd101211c5, type: 3}
+  - {fileID: 8300000, guid: 55101c04a48d67943a4d05ff0a57b951, type: 3}
+  - {fileID: 8300000, guid: b713e6fb1377ac344b08a9e9c7d58490, type: 3}
+  - {fileID: 8300000, guid: ad710c7372bb1dd4ebbaa18cb5e0af26, type: 3}
+  LoopLength: 12
+  IsLinear: 0
+  Randomize: 0
+  FadeOut: 0
+  NumberOfLoops: 3
+  StartVolume: 1
+  Delay: 0
+  DestroyAfterLoop: 1
