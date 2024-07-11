@@ -1,0 +1,1535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1007402716257074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4803931866836224}
+  m_Layer: 0
+  m_Name: Grey_Houndr_HindLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4803931866836224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007402716257074}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.04840707, y: 5.3290704e-17, z: -0.026625713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4335357910873118}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1084693078081870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4075415598205122}
+  m_Layer: 0
+  m_Name: Grey_HoundSpine_03SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4075415598205122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084693078081870}
+  m_LocalRotation: {x: 0, y: 0, z: -2.1577434e-16, w: 1}
+  m_LocalPosition: {x: -0.10985235, y: -4.973799e-16, z: 4.8784244e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4172498719111210}
+  m_Father: {fileID: 4255647462820154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.4725917e-14}
+--- !u!1 &1088027600068182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4172498719111210}
+  m_Layer: 0
+  m_Name: Grey_HoundSpine_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4172498719111210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088027600068182}
+  m_LocalRotation: {x: 0, y: 0, z: 5.133988e-16, w: 1}
+  m_LocalPosition: {x: -0.10985235, y: 2.842171e-16, z: 4.8784244e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4641695427326014}
+  - {fileID: 4463672960791976}
+  - {fileID: 4114616512717582}
+  m_Father: {fileID: 4075415598205122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.883117e-14}
+--- !u!1 &1115659540115356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4073572094145176}
+  m_Layer: 0
+  m_Name: Grey_HoundROOTSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4073572094145176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115659540115356}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: -0.5}
+  m_LocalPosition: {x: -1.5777218e-32, y: 0.4927674, z: -0.23191404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4209250015287260}
+  - {fileID: 4224527480174824}
+  - {fileID: 4349355878862416}
+  - {fileID: 4876496258924138}
+  m_Father: {fileID: 4067646652668466}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
+--- !u!1 &1125233507894866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4338860394567992}
+  m_Layer: 0
+  m_Name: Grey_Houndl_FrontLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4338860394567992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125233507894866}
+  m_LocalRotation: {x: 0, y: -0.12451051, z: 0, w: 0.9922183}
+  m_LocalPosition: {x: -0.2368592, y: 7.105427e-17, z: -3.5527136e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4280242049570422}
+  m_Father: {fileID: 4896722328150720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -14.304977, z: 0}
+--- !u!1 &1126411952807644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4504202877918180}
+  m_Layer: 0
+  m_Name: Grey_Houndr_HindLeg_Knee1SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4504202877918180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126411952807644}
+  m_LocalRotation: {x: 0, y: -0.54068166, z: 0, w: 0.8412273}
+  m_LocalPosition: {x: 0.12797071, y: 0, z: 2.664535e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4123407990183976}
+  m_Father: {fileID: 4224527480174824}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -65.460106, z: 0}
+--- !u!1 &1146876907146228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4809012387926466}
+  m_Layer: 0
+  m_Name: Grey_Houndl_FrontLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4809012387926466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146876907146228}
+  m_LocalRotation: {x: 0.15624173, y: -0.15624173, z: 0.6896293, w: 0.6896293}
+  m_LocalPosition: {x: -0.057801206, y: -0.06777862, z: 0.0692944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4896722328150720}
+  m_Father: {fileID: 4641695427326014}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 25.530754, y: 0, z: 90}
+--- !u!1 &1171723680214404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4989683825020734}
+  m_Layer: 0
+  m_Name: Grey_HoundHead_JawSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4989683825020734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171723680214404}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.014806029, y: -0.05882528, z: 8.8546634e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4591797036141152}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1197362742356448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4292501668039646}
+  m_Layer: 0
+  m_Name: Grey_Houndl_HindLeg_Knee2SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4292501668039646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197362742356448}
+  m_LocalRotation: {x: -0.0018770392, y: 0.34584746, z: 0.000027539347, w: 0.93828887}
+  m_LocalPosition: {x: -0.2489435, y: -1.0658141e-16, z: 4.2632563e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4394030114485518}
+  m_Father: {fileID: 4088001324629214}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.20291106, y: 40.46727, z: -0.07142875}
+--- !u!1 &1234758099515692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4088001324629214}
+  m_Layer: 0
+  m_Name: Grey_Houndl_HindLeg_Knee1SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088001324629214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234758099515692}
+  m_LocalRotation: {x: 0, y: -0.54068166, z: 0, w: 0.8412273}
+  m_LocalPosition: {x: -0.12797071, y: -1.0658141e-16, z: -5.3290704e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4292501668039646}
+  m_Father: {fileID: 4209250015287260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -65.460106, z: 0}
+--- !u!1 &1267658574184592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4255647462820154}
+  m_Layer: 0
+  m_Name: Grey_HoundSpine_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4255647462820154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267658574184592}
+  m_LocalRotation: {x: 0, y: 0, z: -3.3705658e-17, w: 1}
+  m_LocalPosition: {x: -0.10985235, y: -1.4210854e-16, z: 4.8784244e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4075415598205122}
+  m_Father: {fileID: 4349355878862416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.862384e-15}
+--- !u!1 &1359331101061628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4489252682891280}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_06SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4489252682891280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359331101061628}
+  m_LocalRotation: {x: 0, y: -1.5068703e-16, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05994304, y: -0.0018480679, z: 3.1593472e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4360547674106352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -1.7267461e-14, z: 0}
+--- !u!1 &1379704356973834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4237599026982738}
+  - component: {fileID: 137737516479491010}
+  m_Layer: 0
+  m_Name: GreyHond_SLP_Msh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4237599026982738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379704356973834}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4062888262931508}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137737516479491010
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379704356973834}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 743d415cd3c154b41a460d21f0723cc3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  m_Bones:
+  - {fileID: 4067646652668466}
+  - {fileID: 4073572094145176}
+  - {fileID: 4349355878862416}
+  - {fileID: 4255647462820154}
+  - {fileID: 4075415598205122}
+  - {fileID: 4172498719111210}
+  - {fileID: 4641695427326014}
+  - {fileID: 4809012387926466}
+  - {fileID: 4896722328150720}
+  - {fileID: 4338860394567992}
+  - {fileID: 4280242049570422}
+  - {fileID: 4114616512717582}
+  - {fileID: 4154393812095528}
+  - {fileID: 4516687940886288}
+  - {fileID: 4115400565426610}
+  - {fileID: 4172753807154860}
+  - {fileID: 4463672960791976}
+  - {fileID: 4276019435204892}
+  - {fileID: 4591797036141152}
+  - {fileID: 4989683825020734}
+  - {fileID: 4939969372321986}
+  - {fileID: 4355625631244264}
+  - {fileID: 4791202649257938}
+  - {fileID: 4640772216449222}
+  - {fileID: 4209250015287260}
+  - {fileID: 4088001324629214}
+  - {fileID: 4292501668039646}
+  - {fileID: 4394030114485518}
+  - {fileID: 4796746918394714}
+  - {fileID: 4224527480174824}
+  - {fileID: 4504202877918180}
+  - {fileID: 4123407990183976}
+  - {fileID: 4335357910873118}
+  - {fileID: 4803931866836224}
+  - {fileID: 4876496258924138}
+  - {fileID: 4967509058386056}
+  - {fileID: 4047655010535366}
+  - {fileID: 4342103844143626}
+  - {fileID: 4360547674106352}
+  - {fileID: 4489252682891280}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4067646652668466}
+  m_AABB:
+    m_Center: {x: -0.22484523, y: 0.3344547, z: 0.027918458}
+    m_Extent: {x: 1.3133285, y: 1.1024495, z: 1.1526614}
+  m_DirtyAABB: 0
+--- !u!1 &1397119852419342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4123407990183976}
+  m_Layer: 0
+  m_Name: Grey_Houndr_HindLeg_Knee2SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4123407990183976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397119852419342}
+  m_LocalRotation: {x: -0.0018770392, y: 0.34584746, z: 0.000027539347, w: 0.93828887}
+  m_LocalPosition: {x: 0.2489435, y: 7.105427e-17, z: 2.1316282e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4335357910873118}
+  m_Father: {fileID: 4504202877918180}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.20291106, y: 40.46727, z: -0.07142875}
+--- !u!1 &1467914263225418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4154393812095528}
+  m_Layer: 0
+  m_Name: Grey_Houndr_FrontLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154393812095528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467914263225418}
+  m_LocalRotation: {x: 0.15624173, y: -0.15624173, z: 0.6896293, w: 0.6896293}
+  m_LocalPosition: {x: 0.057801206, y: 0.06777862, z: -0.0692944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4516687940886288}
+  m_Father: {fileID: 4114616512717582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 25.530754, y: 0, z: 90}
+--- !u!1 &1482504339056626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4280242049570422}
+  m_Layer: 0
+  m_Name: Grey_Houndl_FrontLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4280242049570422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482504339056626}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.03614972, y: -1.7763568e-17, z: 0.01729996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4338860394567992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1495542105678732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4062888262931508}
+  - component: {fileID: 111468910228579540}
+  - component: {fileID: 6072499184187548895}
+  m_Layer: 0
+  m_Name: Greyhound_FV_IP_SLP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4062888262931508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495542105678732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4237599026982738}
+  - {fileID: 4067646652668466}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111468910228579540
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495542105678732}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400002, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  m_Animations:
+  - {fileID: 7400002, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400004, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400006, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400008, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400010, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400012, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400014, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400016, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400018, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400020, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400022, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400024, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400026, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400028, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400030, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400032, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400034, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400036, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400038, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400040, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400042, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400044, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400046, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400048, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400050, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400052, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400054, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400056, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400058, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400060, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400062, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400064, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400066, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400068, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400070, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400072, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400074, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400076, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400078, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400080, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400082, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400084, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400086, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400160, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400090, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400092, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400094, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400096, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400098, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400100, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400102, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400104, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400106, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400108, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400110, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400112, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400114, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400116, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400118, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400120, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400122, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400124, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400126, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400128, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400130, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400132, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400134, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400136, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400140, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400142, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400144, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400146, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400148, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400150, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400152, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400154, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400156, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  - {fileID: 7400158, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!64 &6072499184187548895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495542105678732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 60e21894921c0b140b4ceef731b270af, type: 3}
+--- !u!1 &1497252945816818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4342103844143626}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_04SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4342103844143626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497252945816818}
+  m_LocalRotation: {x: 1.4176985e-18, y: -1.5068037e-16, z: 0.009408233, w: 0.9999558}
+  m_LocalPosition: {x: -0.062734075, y: -0.0040444336, z: 3.289196e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4360547674106352}
+  m_Father: {fileID: 4047655010535366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.2489823e-16, y: -1.7264403e-14, z: 1.0781198}
+--- !u!1 &1504711021780658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4591797036141152}
+  m_Layer: 0
+  m_Name: Grey_HoundNeck_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591797036141152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504711021780658}
+  m_LocalRotation: {x: 0, y: 0, z: 3.034717e-16, w: 1}
+  m_LocalPosition: {x: -0.09520961, y: -0.040746875, z: 5.0678928e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4989683825020734}
+  - {fileID: 4939969372321986}
+  m_Father: {fileID: 4276019435204892}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.4775293e-14}
+--- !u!1 &1543257168653020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4349355878862416}
+  m_Layer: 0
+  m_Name: Grey_HoundSpine_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4349355878862416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543257168653020}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 2.1316282e-16, y: -0.10985235, z: 4.8784244e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4255647462820154}
+  m_Father: {fileID: 4073572094145176}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1565466392066534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4796746918394714}
+  m_Layer: 0
+  m_Name: Grey_Houndl_HindLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4796746918394714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565466392066534}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.04840707, y: 1.7763568e-17, z: 0.026625713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4394030114485518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1577794443757458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4463672960791976}
+  m_Layer: 0
+  m_Name: Grey_HoundNeck_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463672960791976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577794443757458}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.040746875, y: 0.098074876, z: 4.3976984e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4276019435204892}
+  m_Father: {fileID: 4172498719111210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1 &1581910306764206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4876496258924138}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4876496258924138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581910306764206}
+  m_LocalRotation: {x: -0.6975515, y: 0.7165347, z: 1.2304594e-16, w: 3.8612685e-17}
+  m_LocalPosition: {x: -0.012359178, y: 0.05298113, z: -2.980428e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4967509058386056}
+  m_Father: {fileID: 4073572094145176}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -1.3189604e-14, y: -180, z: -88.46177}
+--- !u!1 &1633362041503606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4360547674106352}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_05SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4360547674106352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633362041503606}
+  m_LocalRotation: {x: 1.155305e-18, y: -1.506826e-16, z: 0.0076669175, w: 0.9999706}
+  m_LocalPosition: {x: -0.062289346, y: -0.00006936653, z: 3.2338044e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4489252682891280}
+  m_Father: {fileID: 4342103844143626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.647686e-16, y: -1.726543e-14, z: 0.8785726}
+--- !u!1 &1664240487945090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4047655010535366}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_03SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047655010535366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664240487945090}
+  m_LocalRotation: {x: 1.837094e-18, y: -1.8947447e-16, z: 0.0096952785, w: 0.99995303}
+  m_LocalPosition: {x: -0.06541022, y: -0.0021329573, z: 3.4277015e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4342103844143626}
+  m_Father: {fileID: 4967509058386056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.210111e-16, y: -2.170911e-14, z: 1.1110144}
+--- !u!1 &1700761117952008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4276019435204892}
+  m_Layer: 0
+  m_Name: Grey_HoundNeck_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4276019435204892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700761117952008}
+  m_LocalRotation: {x: 0, y: 0, z: -2.5231685e-16, w: 1}
+  m_LocalPosition: {x: -0.07337193, y: -0.040746875, z: 4.833325e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4591797036141152}
+  m_Father: {fileID: 4463672960791976}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.8913378e-14}
+--- !u!1 &1716886975882636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640772216449222}
+  m_Layer: 0
+  m_Name: Grey_Houndr_Ear_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640772216449222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716886975882636}
+  m_LocalRotation: {x: -0.30618575, y: 0.74645, z: 0.3520059, w: 0.4745045}
+  m_LocalPosition: {x: 0.010920853, y: -0.002908604, z: 0.046031184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939969372321986}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -54.694546, y: 121.48887, z: -12.292915}
+--- !u!1 &1729538488232216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4896722328150720}
+  m_Layer: 0
+  m_Name: Grey_Houndl_FrontLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4896722328150720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729538488232216}
+  m_LocalRotation: {x: 0, y: 0.3406727, z: 0, w: 0.940182}
+  m_LocalPosition: {x: -0.13003694, y: 0, z: -1.3322676e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4338860394567992}
+  m_Father: {fileID: 4809012387926466}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 39.835724, z: 0}
+--- !u!1 &1763415626365136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4641695427326014}
+  m_Layer: 0
+  m_Name: Grey_Houndl_Clavicle_AuxSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4641695427326014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763415626365136}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.7763567e-16, y: 2.842171e-16, z: -0.049276736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4809012387926466}
+  m_Father: {fileID: 4172498719111210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &1781768779115648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4115400565426610}
+  m_Layer: 0
+  m_Name: Grey_Houndr_FrontLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4115400565426610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781768779115648}
+  m_LocalRotation: {x: 0, y: -0.12451051, z: -0, w: 0.9922183}
+  m_LocalPosition: {x: 0.2368592, y: 1.0658141e-16, z: 3.1974422e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4172753807154860}
+  m_Father: {fileID: 4516687940886288}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -14.304977, z: 0}
+--- !u!1 &1821145965875950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4335357910873118}
+  m_Layer: 0
+  m_Name: Grey_Houndr_HindLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4335357910873118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821145965875950}
+  m_LocalRotation: {x: -0.0049500014, y: 0.05878223, z: 0.0398175, w: 0.9974642}
+  m_LocalPosition: {x: 0.12029652, y: 1.7763568e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4803931866836224}
+  m_Father: {fileID: 4123407990183976}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.83402795, y: 6.712333, z: 4.5230107}
+--- !u!1 &1837239771460006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394030114485518}
+  m_Layer: 0
+  m_Name: Grey_Houndl_HindLeg_AnkleSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4394030114485518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837239771460006}
+  m_LocalRotation: {x: -0.0049500014, y: 0.05878223, z: 0.0398175, w: 0.9974642}
+  m_LocalPosition: {x: -0.12029652, y: 8.8817837e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4796746918394714}
+  m_Father: {fileID: 4292501668039646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.83402795, y: 6.712333, z: 4.5230107}
+--- !u!1 &1844033986059988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4791202649257938}
+  m_Layer: 0
+  m_Name: Grey_Houndr_Eye_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4791202649257938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844033986059988}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.029972019, y: -0.07715963, z: 0.036047757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939969372321986}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1860845605290390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4209250015287260}
+  m_Layer: 0
+  m_Name: Grey_Houndl_HindLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4209250015287260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860845605290390}
+  m_LocalRotation: {x: -0.086021304, y: -0.68702686, z: 0.7082117, w: 0.13795145}
+  m_LocalPosition: {x: 0.034410663, y: -1.0658141e-16, z: -0.0834771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4088001324629214}
+  m_Father: {fileID: 4073572094145176}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 71.693054, y: -82.46511, z: 93.271805}
+--- !u!1 &1876328720078138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4067646652668466}
+  m_Layer: 0
+  m_Name: RootMotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4067646652668466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876328720078138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4073572094145176}
+  m_Father: {fileID: 4062888262931508}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1895645195490078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4967509058386056}
+  m_Layer: 0
+  m_Name: Grey_HoundTail_01_02SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4967509058386056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895645195490078}
+  m_LocalRotation: {x: -2.8270244e-17, y: -1.8738774e-16, z: 0.050185155, w: 0.99873996}
+  m_LocalPosition: {x: -0.063178316, y: -0.0004650666, z: 3.3098613e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4047655010535366}
+  m_Father: {fileID: 4876496258924138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.1578209e-15, y: -2.1608568e-14, z: 5.753211}
+--- !u!1 &1918144677832242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4939969372321986}
+  m_Layer: 0
+  m_Name: Grey_HoundHead_TopSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4939969372321986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918144677832242}
+  m_LocalRotation: {x: 0, y: 0, z: -4.01863e-16, w: 1}
+  m_LocalPosition: {x: -0.053565085, y: 0.0010164632, z: 6.1004464e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4151130798598568}
+  - {fileID: 4355625631244264}
+  - {fileID: 4640772216449222}
+  - {fileID: 4791202649257938}
+  m_Father: {fileID: 4591797036141152}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.6050105e-14}
+--- !u!1 &1930504428893064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355625631244264}
+  m_Layer: 0
+  m_Name: Grey_Houndl_Eye_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355625631244264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930504428893064}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.029972019, y: -0.07715963, z: -0.036047757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939969372321986}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1945948930242222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4114616512717582}
+  m_Layer: 0
+  m_Name: Grey_Houndr_Clavicle_AuxSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4114616512717582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945948930242222}
+  m_LocalRotation: {x: 0.7071068, y: -4.3297806e-17, z: 0.7071068, w: 4.3297806e-17}
+  m_LocalPosition: {x: -1.0658141e-16, y: 2.842171e-16, z: 0.049276736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4154393812095528}
+  m_Father: {fileID: 4172498719111210}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 7.01671e-15, y: 90, z: 180}
+--- !u!1 &1951503717608450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516687940886288}
+  m_Layer: 0
+  m_Name: Grey_Houndr_FrontLeg_KneeSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4516687940886288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951503717608450}
+  m_LocalRotation: {x: 0, y: 0.3406727, z: 0, w: 0.940182}
+  m_LocalPosition: {x: 0.13003694, y: 1.2434498e-16, z: -2.6645352e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4115400565426610}
+  m_Father: {fileID: 4154393812095528}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 39.835724, z: 0}
+--- !u!1 &1955317754412932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224527480174824}
+  m_Layer: 0
+  m_Name: Grey_Houndr_HindLeg_HipSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224527480174824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955317754412932}
+  m_LocalRotation: {x: -0.68702686, y: 0.08602127, z: -0.1379514, w: 0.7082117}
+  m_LocalPosition: {x: 0.034410663, y: 3.5527136e-17, z: 0.0834771}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4504202877918180}
+  m_Father: {fileID: 4073572094145176}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -71.693054, y: 82.4651, z: -86.72818}
+--- !u!1 &1968521154598718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4172753807154860}
+  m_Layer: 0
+  m_Name: Grey_Houndr_FrontLeg_BallSHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4172753807154860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968521154598718}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.03614972, y: 5.3290704e-17, z: -0.01729996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4115400565426610}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1972632641038146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4151130798598568}
+  m_Layer: 0
+  m_Name: Grey_Houndl_Ear_01SHJnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4151130798598568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972632641038146}
+  m_LocalRotation: {x: -0.30618575, y: 0.74645, z: -0.3520059, w: -0.4745045}
+  m_LocalPosition: {x: 0.0101197995, y: -0.002908604, z: -0.04202591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939969372321986}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 54.694546, y: -121.48887, z: -12.292915}
