@@ -8573,6 +8573,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &505800640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2931608507472013453, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+  m_PrefabInstance: {fileID: 1154436540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a07ef133a37d140a87cdf1f1c75fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &515346662
 GameObject:
   m_ObjectHideFlags: 0
@@ -11850,50 +11861,6 @@ Transform:
   - {fileID: 1300204923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &766528057
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs/DefaultCompositionGraph
-  m_Shader: {fileID: -6465566751694194690, guid: 17a2484f0d8e98d48ab395719c54822d, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - BaseLayer:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &768619648
 GameObject:
   m_ObjectHideFlags: 19
@@ -17658,6 +17625,50 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1023376501}
   m_SourcePrefab: {fileID: 100100000, guid: b3471f3be40b8154a8e0ea61d3b8a067, type: 3}
+--- !u!21 &1079618031
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs/DefaultCompositionGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 17a2484f0d8e98d48ab395719c54822d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - BaseLayer:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1115547890
 GameObject:
   m_ObjectHideFlags: 0
@@ -17937,6 +17948,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+      propertyPath: LeftHand
+      value: 
+      objectReference: {fileID: 1852752882}
+    - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+      propertyPath: RightHand
+      value: 
+      objectReference: {fileID: 505800640}
+    - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+      propertyPath: CameraButton
+      value: 
+      objectReference: {fileID: -3597459496605552864, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
       propertyPath: InterfaceScreen
       value: 
       objectReference: {fileID: 856388508}
@@ -17944,6 +17967,14 @@ PrefabInstance:
       propertyPath: ScreenShotCamera
       value: 
       objectReference: {fileID: 857577142}
+    - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+      propertyPath: LeftTriggerButton
+      value: 
+      objectReference: {fileID: 3612385535680701771, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+      propertyPath: RightTriggerButton
+      value: 
+      objectReference: {fileID: -5303011619743352445, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     - target: {fileID: 8518520702829515798, guid: f8c533eb2140bb543ada15872baea017, type: 3}
       propertyPath: InterfaceScreenPrefab
       value: 
@@ -18222,7 +18253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Enable: 0
-  m_Material: {fileID: 766528057}
+  m_Material: {fileID: 1079618031}
   m_OutputDisplay: 0
   m_InputLayers:
   - m_LayerName: BaseLayer
@@ -28948,6 +28979,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1908166659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1852752882 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8153216731378382688, guid: f8c533eb2140bb543ada15872baea017, type: 3}
+  m_PrefabInstance: {fileID: 1154436540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a07ef133a37d140a87cdf1f1c75fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1864573727 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2377376534822228696, guid: ee8aab1d74ec2454a84f58a120ce0d52, type: 3}
@@ -32036,6 +32078,7 @@ GameObject:
   - component: {fileID: 2028386940}
   - component: {fileID: 2028386939}
   - component: {fileID: 2028386941}
+  - component: {fileID: 2028386942}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -32091,11 +32134,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b320935c315adb649aa12c587680a3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  XRIM: {fileID: 2028386942}
   TVEG: {fileID: 0}
   IsStandalone: 0
+  IsTransitioning: 0
   LimboDestination: 
   CameraHeightAdjustment: 0
+  DefaultStandHeight: 1.5
+  DefaultCrouchHeight: 0.7
+  PersistantCamera: {fileID: 0}
+  InLeftHand: {fileID: 0}
+  InRightHand: {fileID: 0}
   TransitionAudios: []
+  SlideIndex: 0
+--- !u!114 &2028386942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028386936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
 --- !u!115 &2033053395
 MonoScript:
   m_ObjectHideFlags: 0

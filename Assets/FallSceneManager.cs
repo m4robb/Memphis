@@ -5,15 +5,22 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using TheVegetationEngine;
 using Unity.Entities.UniversalDelegates;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit;
+
 
 
 public class FallSceneManager : MonoBehaviour
 {
     public static FallSceneManager FallSceneManagerInstance;
 
+    public XRInteractionManager XRIM;
+
     public TVEGlobalMotion TVEG;
 
     public bool IsStandalone;
+
+    public bool IsTransitioning;
 
     public string LimboDestination;
 
@@ -22,6 +29,11 @@ public class FallSceneManager : MonoBehaviour
     public float DefaultStandHeight = 1.5f;
 
     public float DefaultCrouchHeight = .7f;
+
+    public CustomCameraManager PersistantCamera;
+
+    public XRBaseInteractable InLeftHand;
+    public XRBaseInteractable InRightHand;
 
     public List<PlayLongSoundTimed> TransitionAudios = new List<PlayLongSoundTimed>();
 
@@ -34,6 +46,10 @@ public class FallSceneManager : MonoBehaviour
 
 
 
+        if(PersistantCamera == null)
+        {
+           
+        }
 
 
         if (FallSceneManagerInstance == null)
@@ -125,7 +141,7 @@ public class FallSceneManager : MonoBehaviour
     {
 
         if (!TransitionAudios.Contains(_PST)) {
-            Debug.Log(_PST);
+             
             _PST.transform.parent = null;
             TransitionAudios.Add(_PST);
 

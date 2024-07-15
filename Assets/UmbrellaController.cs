@@ -48,14 +48,14 @@ public class UmbrellaController : MonoBehaviour
             if (OnUpright != null && !TriggerUp)
             {
                 TriggerUp = true;
-                Debug.Log("UP");
+
                 OnUpright.Invoke();
             }
         }
 
         if (!IsUpright())
         {
-            Debug.Log("NotUpright");
+   
             OpenTarget = 0;
             TriggerUp = false;
             //Debug.Log("Down");

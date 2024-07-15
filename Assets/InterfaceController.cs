@@ -73,7 +73,9 @@ public class InterfaceController : MonoBehaviour
                 {
                     RI.texture = DownloadHandlerTexture.GetContent(uwr);
                     RI.DOFade(1, 1).OnComplete(() => { 
-                        StartCoroutine(CycleThroughImages()); 
+
+                        if(RI.gameObject.activeSelf)
+                            StartCoroutine(CycleThroughImages()); 
                     });
                 }
 

@@ -1,0 +1,29 @@
+﻿// Crest Water System
+// Copyright © 2024 Wave Harmonic. All rights reserved.
+
+// Clear specific components using a mask.
+
+#pragma kernel CrestClearTarget
+
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+
+#include "Packages/com.waveharmonic.crest/Runtime/Shaders/Library/Utility/Macros.hlsl"
+
+RWTexture2DArray<float4> _Crest_Target;
+
+CBUFFER_START(CrestPerMaterial)
+float4 _Crest_ClearMask;
+float4 _Crest_ClearColor;
+CBUFFER_END
+
+m_UtilityNameSpace
+
+void ClearTarget(uint3 id)
+{
+    _Crest_Target[id] *= 1.0 - _Crest_ClearMask;
+    _Crest_Target[id] += _Crest_ClearColor;
+}
+
+m_UtilityNameSpaceEnd
+
+m_UtilityKernelDefault(ClearTarget)

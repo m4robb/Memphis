@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2528498466745926196
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water5Pool
+  m_Shader: {fileID: -6465566751694194690, guid: 00ffe7d0b7161420897069dc6e12822c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _BUILTIN_ALPHATEST_ON
+  - _BUILTIN_AlphaClip
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  - _DOUBLESIDED_ON
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _MATERIAL_FEATURE_SPECULAR_COLOR
+  - _REFRACTION_PLANE
+  - _SURFACE_TYPE_TRANSPARENT
+  - _TRANSPARENT_WRITES_MOTION_VEC
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Crest_CausticsDistortionTexture:
+        m_Texture: {fileID: 2800000, guid: 7aa3f69cfb40b429a865c45a7271c5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Crest_CausticsTexture:
+        m_Texture: {fileID: 2800000, guid: 1407209016967410da2ae6fdd4d97fc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Crest_FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 959dd0505e2c54585865f51257daa0e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Crest_NormalMapTexture:
+        m_Texture: {fileID: 2800000, guid: 7aa3f69cfb40b429a865c45a7271c5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - CREST_FLOW: 0
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 10
+    - _AlphaSrcBlend: 1
+    - _BUILTIN_AlphaClip: 1
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 0
+    - _BUILTIN_DstBlend: 10
+    - _BUILTIN_QueueControl: 1
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 5
+    - _BUILTIN_Surface: 1
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 1
+    - _BlendMode: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _Crest_AlbedoEnabled: 0
+    - _Crest_AmbientTerm: 1
+    - _Crest_Anisotropy: 0.5
+    - _Crest_CausticsDepthOfField: 6
+    - _Crest_CausticsDistortionScale: 250
+    - _Crest_CausticsDistortionStrength: 0.16
+    - _Crest_CausticsEnabled: 1
+    - _Crest_CausticsFocalDepth: 2
+    - _Crest_CausticsMotionBlur: 1
+    - _Crest_CausticsStrength: 3.2
+    - _Crest_CausticsTextureAverage: 0.07
+    - _Crest_CausticsTextureScale: 50
+    - _Crest_DirectTerm: 1
+    - _Crest_FoamEnabled: 1
+    - _Crest_FoamFeather: 0.75
+    - _Crest_FoamIntensityAlbedo: 1
+    - _Crest_FoamNormalStrength: 1
+    - _Crest_FoamScale: 5
+    - _Crest_FoamSmoothness: 0.7
+    - _Crest_MinimumReflectionDirectionY: 0
+    - _Crest_NormalMapEnabled: 1
+    - _Crest_NormalMapScale: 3
+    - _Crest_NormalMapStrength: 0.15
+    - _Crest_NormalsStrengthOverall: 1
+    - _Crest_Occlusion: 1
+    - _Crest_OcclusionUnderwater: 0
+    - _Crest_PlanarReflectionsDistortion: 1
+    - _Crest_PlanarReflectionsEnabled: 0
+    - _Crest_PlanarReflectionsIntensity: 1
+    - _Crest_RefractionStrength: 1
+    - _Crest_RefractiveIndexOfWater: 1.33
+    - _Crest_SSSDirectionalFalloff: 2
+    - _Crest_SSSEnabled: 0
+    - _Crest_SSSIntensity: 10
+    - _Crest_SSSPinchFalloff: 1.5
+    - _Crest_SSSPinchMaximum: 1.67
+    - _Crest_SSSPinchMinimum: 0.57
+    - _Crest_ShadowCasterThreshold: 0.5
+    - _Crest_ShadowsEnabled: 1
+    - _Crest_Smoothness: 0.9
+    - _Crest_SmoothnessFalloff: 0.5
+    - _Crest_SmoothnessFar: 0.4
+    - _Crest_SmoothnessFarDistance: 4000
+    - _Crest_Specular: 0.25
+    - _Crest_TotalInternalReflectionIntensity: 0.8
+    - _Crest_Version: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _DstBlend2: 10
+    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
+    - _MaterialID: 4
+    - _MaterialTypeMask: 16
+    - _OpaqueCullMode: 2
+    - _PerPixelSorting: 0
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 1
+    - _RefractionModel: 1
+    - _RenderQueueType: 4
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 24
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 25
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SupportDecals: 1
+    - _SurfaceType: 1
+    - _TransmissionEnable: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 1
+    - _TransparentZWrite: 1
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _Crest_Absorption: {r: 0.70086163, g: 0.236999, b: 0.106051564, a: 0}
+    - _Crest_AbsorptionColor: {r: 0.34162676, g: 0.6954546, b: 0.85, a: 0.1019608}
+    - _Crest_Scattering: {r: 0, g: 0.09803919, b: 0.19999996, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &4410719297091470444
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

@@ -12,6 +12,9 @@ using UnityEngine.Events;
 using UnityEngine.Rendering.HighDefinition;
 using UnityEngine.XR.OpenXR;
 using Unity.XR.CoreUtils;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using Unity.VisualScripting;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 
 #if UNITY_PS5
@@ -21,6 +24,11 @@ using PlaystationInput = UnityEngine.PS5.PS5Input;
 public class CustomCameraManager : MonoBehaviour
 {
     public XROrigin XRO;
+
+    public Transform StartingPosition;
+
+    public XRInteractionManager XRIM;
+
     public string NextScene = "";
     public float DelayTime = 1;
     public float OffsetSpeed = .5f;
@@ -37,12 +45,21 @@ public class CustomCameraManager : MonoBehaviour
     public float TiltValue = 30;
     public float StandHeight = 1.2f;
     public float CrouchHeight = .6f;
+
+
     public UnityEvent OnFadeIn;
     public UnityEvent OnFadeOut;
     public UnityEvent OnSpecialButtonIsPressed;
     public UnityEvent OnCustomShutterEvent;
     public UnityEvent OnHeadSetOn;
     public UnityEvent OnHeadSetOff;
+
+    public XRBaseInteractor LeftHand;
+    public XRBaseInteractor RightHand;
+
+    public InputActionReference LeftTriggerButton = null;
+    public InputActionReference RightTriggerButton = null;
+
     public InputActionReference SpecialButton = null;
     public InputActionReference CameraButton = null;
     public bool CustomShutter;
@@ -137,6 +154,8 @@ public class CustomCameraManager : MonoBehaviour
     bool FadeToNextSceneTrigger;
 
     public bool HMDOn, HeadTriggerValue;
+
+    bool PullLeft, PullRight;
     public bool IsStandalone;
 
     int FreezeMargin = 0;
@@ -192,9 +211,9 @@ public class CustomCameraManager : MonoBehaviour
         {
             if (FallSceneManager.FallSceneManagerInstance)
             {
-                Debug.Log("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRR");
+                
 
-              
+                FallSceneManager.FallSceneManagerInstance.IsTransitioning = true;
 
                 FallSceneManager.FallSceneManagerInstance.LoadNextScene(_Scene);
                
@@ -365,36 +384,7 @@ public class CustomCameraManager : MonoBehaviour
 
     bool ButtonTrigger;
 
-private void LateUpdate()
-    {
 
-        //Gyro();
-
-        //bool ButtonPushed1 = false, ButtonValue1 = false, ButtonPushed2 = false, ButtonValue2 = false;
-
-
-        //foreach (UnityEngine.XR.InputDevice device in LeftHandDevices)
-        //{
-
-        //    ButtonPushed1 = device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.menuButton, out ButtonValue1) && ButtonValue1;
-
-        //}
-
-
-        //if (ButtonPushed1)
-        //{
-        //    if (ButtonTrigger) return;
-
-        //    Debug.Log("PressCameraButton");
-        //    ButtonTrigger = true;
-        //    StartCoroutine(ScreenShotCamera.ExecuteShot());
-        //}
-
-        //if (!ButtonPushed1)
-        //{
-        //    ButtonTrigger = false;
-        //}
-    }
 
         void Gyro()
         {
@@ -412,6 +402,44 @@ private void LateUpdate()
     public float fixDuration = 3;
     float fixStart = 0;
 
+    void StopManualInteractionLeft()
+    {
+        //Debug.Log("end left");
+      LeftHand.EndManualInteraction();
+       
+    }
+
+    void StopManualInteractionRight()
+    {
+        Debug.Log("end right");
+        //RightHand.EndManualInteraction();
+    }
+
+    void StartPersistentLeft()
+    {
+        Debug.Log("PersistentGrab!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        IXRSelectInteractable mySelect = FallSceneManager.FallSceneManagerInstance.InLeftHand;
+        LeftHand.StartManualInteraction(mySelect);
+
+        //Invoke("StopManualInteractionLeft", 1f);
+
+    }
+
+    void EndTransition()
+    {
+        FallSceneManager.FallSceneManagerInstance.IsTransitioning = false;
+    }
+
+
+    void StartPersistentRight()
+    {
+        Debug.Log("PersistentGrab!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
+        IXRSelectInteractable mySelect = FallSceneManager.FallSceneManagerInstance.InRightHand;
+        LeftHand.StartManualInteraction(mySelect);
+        //Invoke("StopManualInteractionRight", 1f);
+       // FallSceneManager.FallSceneManagerInstance.IsTransitioning = false;
+    }
     private void Update()
     {
 
@@ -430,9 +458,39 @@ private void LateUpdate()
         if (FallSceneManager.FallSceneManagerInstance && !IsManaged)
         {
             IsManaged = true;
+
+
             if (NextScene != "") FallSceneManager.FallSceneManagerInstance.PreloadSceneStart(NextScene);
 
-           
+            //if (!FallSceneManager.FallSceneManagerInstance.PersistantCamera)
+            //{
+            //    FallSceneManager.FallSceneManagerInstance.PersistantCamera = this;
+            //    DontDestroyOnLoad(gameObject);
+            //}
+            //else
+            //{
+            //    Destroy(gameObject);
+            //}
+            if (FallSceneManager.FallSceneManagerInstance.InLeftHand)
+            {
+                StartPersistentLeft();
+
+                 Invoke("EndTransition", 2f);
+            }
+
+            if (FallSceneManager.FallSceneManagerInstance.InRightHand)
+            {
+
+                Invoke("StartPersistentRight", .2f);
+
+            }
+
+
+            if (StartingPosition) {
+
+                transform.position = StartingPosition.position;
+                transform.rotation = StartingPosition.rotation;
+            }
 
             if (FallSceneManager.FallSceneManagerInstance.TVEG)
             {
@@ -467,7 +525,9 @@ private void LateUpdate()
             InputDevices.GetDevicesAtXRNode(XRNode.LeftHand, LeftHandDevices);
         }
 
-        foreach (UnityEngine.XR.InputDevice device in HeadDevices)
+
+
+            foreach (UnityEngine.XR.InputDevice device in HeadDevices)
         {
 
 
@@ -522,6 +582,7 @@ private void LateUpdate()
                 Shutter.material.DOFade(0, .2f).SetDelay(.5f).OnComplete(() =>
                 {
                     Shutter.gameObject.SetActive(false);
+                    //FallSceneManager.FallSceneManagerInstance.IsTransitioning = false;
                     if (OnFadeIn != null) OnFadeIn.Invoke();
 
 
@@ -553,8 +614,34 @@ private void LateUpdate()
 
 
 
+        if (LeftTriggerButton != null)
+        {
+            if (LeftTriggerButton.action.IsPressed() && !PullLeft && !FallSceneManager.FallSceneManagerInstance.IsTransitioning)
+            {
+                PullLeft = true;
+
+                StopManualInteractionLeft();
+            }
 
 
+
+            if (!LeftTriggerButton.action.IsPressed()) PullLeft = false;
+        }
+
+
+        //if (RightTriggerButton != null)
+        //{
+        //    if (RightTriggerButton.action.IsPressed() && !PullRight)
+        //    {
+        //        PullRight = true;
+
+        //        StopManualInteractionRight();
+        //    }
+
+
+
+        //    if (!LeftTriggerButton.action.IsPressed()) PullLeft = false;
+        //}
 
 
         if (CameraButton != null)

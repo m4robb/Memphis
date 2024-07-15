@@ -106,7 +106,6 @@ public class AudioLooper : MonoBehaviour
 
             AudioGridTick.AudioGridInstance.AudioLoops.Add(this);
 
-            Debug.Log("go");
 
             StartLoopLength = LoopLength;
 

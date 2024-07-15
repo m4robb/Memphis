@@ -1,0 +1,58 @@
+﻿// Crest Water System
+// Copyright © 2024 Wave Harmonic. All rights reserved.
+
+#pragma kernel CrestExecute
+
+// Must match value in script
+#define GROUP_SIZE 64
+
+StructuredBuffer<float3> _Crest_QueryPositions_MinimumGridSizes;
+RWStructuredBuffer<float3> _Crest_ResultFlows;
+
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+
+#include "../../Library/Macros.hlsl"
+#include "../../Library/Globals.hlsl"
+#include "../../Library/InputsDriven.hlsl"
+#include "../../Library/Helpers.hlsl"
+#include "../../Library/Cascade.hlsl"
+
+m_CrestNameSpace
+
+float3 ComputeFlow(float2 undispPos, float minSlice, const float baseScale)
+{
+    uint slice0, slice1;
+    float lodAlpha;
+    PosToSliceIndices(undispPos, minSlice, g_Crest_LodCount - 2.0, baseScale, slice0, slice1, lodAlpha);
+
+    Cascade cascade0 = Cascade::MakeFlow(slice0);
+    Cascade cascade1 = Cascade::MakeFlow(slice1);
+
+    const float wt_0 = (1. - lodAlpha) * Cascade::Make(slice0)._Weight;
+    const float wt_1 = (1. - wt_0) * Cascade::Make(slice1)._Weight;
+
+    float2 result =
+        wt_0 * cascade0.SampleFlow(undispPos) +
+        wt_1 * cascade1.SampleFlow(undispPos);
+
+    // Unfortunately we don't support float2 vs float3s yet, on the C# side
+    return float3(result.x, 0.0, result.y);
+}
+
+void Execute(uint3 id)
+{
+    float3 data = _Crest_QueryPositions_MinimumGridSizes[id.x];
+    const float2 queryPosXZ = data.xy;
+    const float minGridSize = data.z;
+
+    const float gridSizeSlice0 = Cascade::MakeFlow(0)._Texel;
+    // While it would probably be ok to use the last slice, we avoid using it to be consistent with displacements.
+    const float minSlice = clamp(floor(log2(max(minGridSize / gridSizeSlice0, 1.0))), 0.0, g_Crest_LodCount - 2.0);
+
+    _Crest_ResultFlows[id.x] = ComputeFlow(queryPosXZ, minSlice, g_Crest_WaterScale);
+}
+
+m_CrestNameSpaceEnd
+
+[numthreads(GROUP_SIZE, 1, 1)]
+m_CrestKernel(Execute)

@@ -12,6 +12,9 @@ public class DoMaskSocket : MonoBehaviour
 
     public XRInteractionManager XRIM;
     public XRSocketInteractor XRSI;
+
+   
+
     public XRGrabInteractable XRGI;
     public float SnapDistance = .4f;
     public Vector3 ScaleTo;
@@ -53,6 +56,19 @@ public class DoMaskSocket : MonoBehaviour
     {
         Debug.Log("Set Scale to " + ScaleTo);
         transform.DOScale(ScaleTo, .2f);
+    }
+
+    public void DropItem()
+    {
+
+        Debug.Log("DROP ITEM FROM SOCKET");
+
+        SnapTrigger = false;
+        XRSI.enabled = false;
+        XRSI.socketActive = false;
+
+        //IXRSelectInteractor iXRSI = XRSI;
+        //XRIM.SelectExit(iXRSI, XRGI);
     }
 
 

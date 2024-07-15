@@ -94,7 +94,7 @@ namespace ChessInVR
 
 
                 SelectIndicator.SetActive(false);
-                Debug.Log("Collider  Exited for " + pOther);
+                //Debug.Log("Collider  Exited for " + pOther);
                 // Look for VisualChessPiece that entered.
                 VisualChessPiece visualPiece = pOther.GetComponent<VisualChessPiece>();
                 if (visualPiece == null)
