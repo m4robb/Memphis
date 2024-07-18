@@ -98,7 +98,7 @@ public class InterfaceController : MonoBehaviour
         }
 
         RI.DOFade(0, 1).OnComplete(() => {
-            Debug.Log(info[SlideIndex].FullName);
+
             StartCoroutine(GetTexture(info[SlideIndex].FullName)); 
         });
 

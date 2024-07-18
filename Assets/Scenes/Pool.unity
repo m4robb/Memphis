@@ -26506,6 +26506,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7203595508879139387, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 515242196}
+    - targetCorrespondingSourceObject: {fileID: 7203595508879139387, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 515242198}
   m_SourcePrefab: {fileID: 100100000, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
 --- !u!4 &515242176 stripped
 Transform:
@@ -27561,6 +27564,41 @@ MonoBehaviour:
   _ObjectLength: 3
   _Debug:
     _DrawQueries: 0
+--- !u!114 &515242198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515242190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ab26285e294787a92bc8bba92c30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsOfInterest:
+  - {fileID: 592890724}
+  lookAtPlayerRatio: 0
+  stareBackFactor: 0
+  noticePlayerDistance: 0
+  personalSpaceDistance: 0
+  minLookTime: 3
+  maxLookTime: 10
+  thirdPersonPlayerEyeCenter: {fileID: 0}
+  keepTargetEvenWhenLost: 1
+  avoidLookingThroughPlayer: 0
+  OnStartLookingAtPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStopLookingAtPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerEntersPersonalSpace:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLookAwayFromShyness:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &522625942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5221298333918879608, guid: 721019b4fdc43f54a8ea7985b8b8f24d, type: 3}
@@ -41284,7 +41322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3116664916048547494, guid: ac3537b54701d5a4e856ba0e7b26ae68, type: 3}
       propertyPath: m_RenderingLayerMask
-      value: 1
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 3116664916048547494, guid: ac3537b54701d5a4e856ba0e7b26ae68, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[16]'
@@ -41488,7 +41526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8042910624945738058, guid: ac3537b54701d5a4e856ba0e7b26ae68, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066806748285115943, guid: ac3537b54701d5a4e856ba0e7b26ae68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79015,6 +79053,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7203595508879139387, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1654487330}
+    - targetCorrespondingSourceObject: {fileID: 7203595508879139387, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654487333}
   m_SourcePrefab: {fileID: 100100000, guid: 813f0e09d0100e84dab8f8fbb4f4281e, type: 3}
 --- !u!4 &1654487311 stripped
 Transform:
@@ -80022,6 +80063,41 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     spineTargetOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &1654487333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654487327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ab26285e294787a92bc8bba92c30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsOfInterest:
+  - {fileID: 592890724}
+  lookAtPlayerRatio: 0
+  stareBackFactor: 0
+  noticePlayerDistance: 0
+  personalSpaceDistance: 0
+  minLookTime: 3
+  maxLookTime: 10
+  thirdPersonPlayerEyeCenter: {fileID: 0}
+  keepTargetEvenWhenLost: 1
+  avoidLookingThroughPlayer: 0
+  OnStartLookingAtPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStopLookingAtPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerEntersPersonalSpace:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLookAwayFromShyness:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1655480273
 GameObject:
   m_ObjectHideFlags: 0
